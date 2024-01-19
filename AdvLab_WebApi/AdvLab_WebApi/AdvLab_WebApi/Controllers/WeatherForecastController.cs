@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
 
-
 namespace AdvLab_WebApi.Controllers
 {
     [ApiController]
