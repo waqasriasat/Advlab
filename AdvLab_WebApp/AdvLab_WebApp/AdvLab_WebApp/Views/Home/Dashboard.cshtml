@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<h1>Dashboard</h1>
+@{
+    var userName = Context.Session.GetString("UserName");
+}
+
+<h2>@userName</h2>
+<a asp-controller="Home" asp-action="Logout">Logout</a>
+

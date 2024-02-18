@@ -1,0 +1,317 @@
+﻿@model AdvLab_WebApp.Models.Reception.ReceptionViewModel
+
+@{
+    ViewData["Title"] = "Reception";
+}
+
+<h1>Reception</h1>
+
+@if (TempData["ErrorMessage"] != null)
+{
+
+    {
+        <div class="alert alert-danger alert-dismissible fade show">
+            <strong>Error! </strong> @TempData["ErrorMessage"]
+            <button type="button" class="close" data-slide-to="alert">
+                <span>&times;</span>
+            </button>
+        </div>
+    }
+}
+@if (TempData["SuccessMessage"] != null)
+{
+
+    {
+        <div class="alert alert-success alert-dismissible fade show">
+            <strong>Success </strong> @TempData["SuccessMessage"]
+            <button type="button" class="close" data-slide-to="alert">
+                <span>&times;</span>
+            </button>
+        </div>
+    }
+}
+@section Scripts {
+    <script src="~/js/datatable_file.js"></script>
+
+}
+<form asp-action="Index" method="post">
+    <div class="row">
+        <div class="col-12 col-md-4 col-lg-4">
+            <div class="row borderfirst">
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="form-group">
+                        <label asp-for="DescCashierModel.MRNO">MR #</label>
+                        <input asp-for="DescCashierModel.MRNO" class="form-control" readonly="readonly" />
+                        <span asp-validation-for="DescCashierModel.MRNO" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="form-group">
+                        <label asp-for="DescCashierModel.LabNo">Lab #</label>
+                        <input asp-for="DescCashierModel.LabNo" class="form-control" readonly="readonly" />
+                        <span asp-validation-for="DescCashierModel.LabNo" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="form-group">
+                        <label asp-for="DescCashierModel.CpNo">CP #</label>
+                        <input asp-for="DescCashierModel.CpNo" class="form-control" readonly="readonly" />
+                        <span asp-validation-for="DescCashierModel.CpNo" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row borderfirst">
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="form-group">
+                        <label asp-for="PatRegModel.Initial">Initial</label>
+                        @* <select asp-for="PatRegModel.Initial" asp-items="@(new SelectList(ViewBag.InitialList, "Value", "Text", Model.Initial))" class="form-control">
+                        </select> *@
+                        <input asp-for="PatRegModel.Initial" class="form-control" />
+                        <span asp-validation-for="PatRegModel.Initial" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8 col-lg-8">
+                    <div class="form-group">
+                        <label asp-for="PatRegModel.FirstName">Name</label>
+                        <input asp-for="PatRegModel.FirstName" class="form-control" />
+                        <span asp-validation-for="PatRegModel.FirstName" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="form-group">
+                        <label asp-for="PatRegModel.Relation">Relation</label>
+                        @* <select asp-for="PatRegModel.Relation" asp-items="@(new SelectList(ViewBag.RelationList, "Value", "Text", Model.Relation))" class="form-control">
+                        </select> *@
+                        <input asp-for="PatRegModel.Relation" class="form-control" />
+                        <span asp-validation-for="PatRegModel.Relation" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8 col-lg-8">
+                    <div class="form-group">
+                        <label asp-for="PatRegModel.RelName">Relation Name</label>
+                        <input asp-for="PatRegModel.RelName" class="form-control" />
+                        <span asp-validation-for="PatRegModel.RelName" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-2 col-lg-2">
+                    <div class="form-group">
+                        <label asp-for="PatRegModel.Age">Age</label>
+                        <input asp-for="PatRegModel.Age" class="form-control" />
+                        <span asp-validation-for="PatRegModel.Age" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="form-group">
+                        <label asp-for="PatRegModel.AgeType">AgeType</label>
+                        @* <select asp-for="PatRegModel.AgeType" asp-items="@(new SelectList(ViewBag.AgeTypeList, "Value", "Text", Model.AgeType))" class="form-control">
+                        </select> *@
+                        <input asp-for="PatRegModel.AgeType" class="form-control" />
+                        <span asp-validation-for="PatRegModel.AgeType" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="form-group">
+                        <label asp-for="PatRegModel.Gender">Gender</label>
+                        @* <select asp-for="PatRegModel.Gender" asp-items="@(new SelectList(ViewBag.GenderList, "Value", "Text", Model.Gender))" class="form-control">
+                        </select> *@
+                        <input asp-for="PatRegModel.Gender" class="form-control" />
+                        <span asp-validation-for="PatRegModel.Gender" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="form-group">
+                        <label asp-for="PatRegModel.DBO">Date of Birth</label>
+                        <input asp-for="PatRegModel.DBO" type="date" class="form-control" />
+                        <span asp-validation-for="PatRegModel.DBO" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="form-group">
+                        <label asp-for="PatRegModel.ContNo">Contact #</label>
+                        <input asp-for="PatRegModel.ContNo" class="form-control" />
+                        <span asp-validation-for="PatRegModel.ContNo" class="text-danger"></span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row borderfirst">
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="form-group">
+                        <label asp-for="DescCashierModel.ClientID">Client ID</label>
+                        <input asp-for="DescCashierModel.ClientID" class="form-control" readonly="readonly" />
+                        <span asp-validation-for="DescCashierModel.ClientID" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8 col-lg-8">
+                    <div class="form-group">
+                        <label asp-for="DescCashierModel.ClientName">Client Name</label>
+                        <input asp-for="DescCashierModel.ClientName" class="form-control" />
+                        <span asp-validation-for="DescCashierModel.ClientName" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="form-group">
+                        <label asp-for="DescCashierModel.ClientNo">Ref #</label>
+                        <input asp-for="DescCashierModel.ClientNo" class="form-control" />
+                        <span asp-validation-for="DescCashierModel.ClientNo" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8 col-lg-8">
+                    <div class="form-group">
+                        <label asp-for="DescCashierModel.ConsName">Consultant Name</label>
+                        <input asp-for="DescCashierModel.ConsName" class="form-control" />
+                        <span asp-validation-for="DescCashierModel.ConsName" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-6">
+            <div class="row borderfirst">
+                <div class="col-12 col-md-2 col-lg-2">
+                    <div class="form-group">
+                        <label asp-for="DescLabModel.DescID">Desc ID</label>
+                        <input asp-for="DescLabModel.DescID" class="form-control" />
+                        <span asp-validation-for="DescLabModel.DescID" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8 col-lg-8">
+                    <div class="form-group">
+                        <label asp-for="DescLabModel.DescName">Description Name</label>
+                        <input asp-for="DescLabModel.DescName" class="form-control" />
+                        <span asp-validation-for="DescLabModel.DescName" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-2 col-lg-2">
+                    <div class="form-group">
+                        <label asp-for="DescLabModel.Charges">Charges</label>
+                        <input asp-for="DescLabModel.Charges" class="form-control" />
+                        <span asp-validation-for="DescLabModel.Charges" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row borderfirst" style="height: 262px;">
+                <table id="myTable" class="table">
+                    <thead>
+                        <tr>
+                            <th>Desc ID</th>
+                            <th>Description Name</th>
+                            <th>Charges</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.DescLabModelItem)
+                        {
+                            <tr>
+                                <td>@item.DescID</td>
+                                <td>@item.DescName</td>
+                                <td>@item.Charges</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+            <div class="row borderfirst">
+                <div class="col-12 col-md-12 col-lg-12">
+                    <div class="form-group">
+                        <label asp-for="DescCashierModel.Comments">Comments</label>>
+                        <input asp-for="DescCashierModel.Comments" type="text" class="form-control" style="height: 100px;" />
+                        <span asp-validation-for="DescCashierModel.Comments" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-2 col-lg-2">
+            <div class="row borderfirst" style="height: 480px;">
+                <div class="col-12 col-md-12 col-lg-12">
+                    <div class="form-group">
+                        <label asp-for="DescCashierModel.PaymentMode">Payment Mode</label>
+                        <input asp-for="DescCashierModel.PaymentMode" class="form-control"/>
+                        <span asp-validation-for="DescCashierModel.PaymentMode" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-12">
+                    <div class="form-group">
+                        <label asp-for="DescCashierModel.GrossA">Gross Amount</label>
+                        <input asp-for="DescCashierModel.GrossA" class="form-control" value="0" readonly="readonly" />
+                        <span asp-validation-for="DescCashierModel.GrossA" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-12">
+                    <div class="form-group">
+                        <label asp-for="DescCashierModel.Discount">Discount (Rs.)</label>
+                        <input asp-for="DescCashierModel.Discount" class="form-control" value="0" />
+                        <span asp-validation-for="DescCashierModel.Discount" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-12">
+                    <div class="form-group">
+                        <label asp-for="DescCashierModel.DiscPer">Discount (%)</label>
+                        <input asp-for="DescCashierModel.DiscPer" class="form-control" value="0" />
+                        <span asp-validation-for="DescCashierModel.DiscPer" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-12">
+                    <div class="form-group">
+                        <label asp-for="DescCashierModel.TotalA">Total Amount</label>
+                        <input asp-for="DescCashierModel.TotalA" class="form-control" value="0" readonly="readonly" />
+                        <span asp-validation-for="DescCashierModel.TotalA" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-12">
+                    <div class="form-group">
+                        <label asp-for="DescCashierModel.PaidA">Paid Amount</label>
+                        <input asp-for="DescCashierModel.PaidA" class="form-control" value="0" />
+                        <span asp-validation-for="DescCashierModel.PaidA" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-12">
+                    <div class="form-group">
+                        <label asp-for="DescCashierModel.BlanceA">Balance Amount</label>
+                        <input asp-for="DescCashierModel.BlanceA" class="form-control" value="0" readonly="readonly" />
+                        <span asp-validation-for="DescCashierModel.BlanceA" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-12 col-lg-12">
+        <br />
+        <br />
+        <div class="btn-group" role="group" aria-label="Actions">
+            @* <button type="button" class="btn btn-primary" onclick="addNewRow()">Add Row</button> *@
+            <button type="submit" class="btn btn-primary">Create</button>
+        </div>
+    </div>
+    
+</form>
+
+@* <script>
+    function addNewRow() {
+        var newRowHtml = `
+                <div class="row borderfirst">
+                    <div class="col-12 col-md-2 col-lg-2">
+                        <div class="form-group">
+                            <label asp-for="DescLabModel.DescID">Desc ID</label>
+                            <input asp-for="DescLabModel.DescID" class="form-control" readonly="readonly" />
+                            <span asp-validation-for="DescLabModel.DescID" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-8 col-lg-8">
+                        <div class="form-group">
+                            <label asp-for="DescLabModel.DescName">Description Name</label>
+                            <input asp-for="DescLabModel.DescName" class="form-control" />
+                            <span asp-validation-for="DescLabModel.DescName" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-2 col-lg-2">
+                        <div class="form-group">
+                            <label asp-for="DescLabModel.Charges">Charges</label>
+                            <input asp-for="DescLabModel.Charges" class="form-control" readonly="readonly" />
+                            <span asp-validation-for="DescLabModel.Charges" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>`;
+
+        $('.borderfirst:last').after(newRowHtml); // Append after the last .borderfirst row
+    }
+</script> *@

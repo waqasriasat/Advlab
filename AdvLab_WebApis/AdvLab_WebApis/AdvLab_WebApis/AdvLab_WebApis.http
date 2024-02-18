@@ -1,0 +1,6 @@
+@AdvLab_WebApis_HostAddress = http://localhost:5235
+
+GET {{AdvLab_WebApis_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

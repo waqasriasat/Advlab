@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AdvLab_WebApi.props" />
+</Project>

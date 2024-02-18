@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("AdvLab_WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca318744611f09e671bbfc7cef409f748f22a2a0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fccd479c28bcfb04dcaf896a12b5820fcc18e77f")]
 [assembly: System.Reflection.AssemblyProductAttribute("AdvLab_WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AdvLab_WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

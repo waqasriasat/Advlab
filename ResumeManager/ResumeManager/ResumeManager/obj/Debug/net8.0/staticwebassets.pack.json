@@ -1,0 +1,313 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ResumeManager.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ResumeManager.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\images\\04a68ac3-d1bf-4812-925c-30700ce1a1d5_Screenshot 2024-01-05 093823.png",
+      "PackagePath": "staticwebassets\\images\\04a68ac3-d1bf-4812-925c-30700ce1a1d5_Screenshot 2024-01-05 093823.png"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\images\\807f9c54-1f50-4f7a-ad95-deea4821b00a_Screenshot 2024-01-02 041925.png",
+      "PackagePath": "staticwebassets\\images\\807f9c54-1f50-4f7a-ad95-deea4821b00a_Screenshot 2024-01-02 041925.png"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\images\\8e8f3225-ec3c-4ae4-8c41-fb7129d1cdfe_Screenshot 2024-01-02 041925.png",
+      "PackagePath": "staticwebassets\\images\\8e8f3225-ec3c-4ae4-8c41-fb7129d1cdfe_Screenshot 2024-01-02 041925.png"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\images\\980ba741-973d-43d2-9223-275b5545f81a_Screenshot 2023-12-28 024956.png",
+      "PackagePath": "staticwebassets\\images\\980ba741-973d-43d2-9223-275b5545f81a_Screenshot 2023-12-28 024956.png"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\images\\Noimages.png",
+      "PackagePath": "staticwebassets\\images\\Noimages.png"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\images\\ae03440e-9432-4ba7-a01d-686d807d6dac_Screenshot 2024-01-05 093854.png",
+      "PackagePath": "staticwebassets\\images\\ae03440e-9432-4ba7-a01d-686d807d6dac_Screenshot 2024-01-05 093854.png"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\images\\ae88cffe-6b4f-4d4f-aa1f-a981f90d8393_Screenshot 2024-01-03 033101.png",
+      "PackagePath": "staticwebassets\\images\\ae88cffe-6b4f-4d4f-aa1f-a981f90d8393_Screenshot 2024-01-03 033101.png"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\images\\bc7602ea-ecba-4baf-a617-f6a132a59e38_Screenshot 2023-12-31 152338.png",
+      "PackagePath": "staticwebassets\\images\\bc7602ea-ecba-4baf-a617-f6a132a59e38_Screenshot 2023-12-31 152338.png"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\images\\bdec2c60-a9a8-4c3f-9950-c78f0bc1ef88_Screenshot 2024-01-05 093823.png",
+      "PackagePath": "staticwebassets\\images\\bdec2c60-a9a8-4c3f-9950-c78f0bc1ef88_Screenshot 2024-01-05 093823.png"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\images\\e3326c49-1671-43a8-8766-ad5f2a68ab70_Screenshot 2023-12-31 152338.png",
+      "PackagePath": "staticwebassets\\images\\e3326c49-1671-43a8-8766-ad5f2a68ab70_Screenshot 2023-12-31 152338.png"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\images\\e66f91be-8918-4d00-8bba-4d8891ba2fd8_Screenshot 2024-01-04 001751.png",
+      "PackagePath": "staticwebassets\\images\\e66f91be-8918-4d00-8bba-4d8891ba2fd8_Screenshot 2024-01-04 001751.png"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\images\\noimage.svg",
+      "PackagePath": "staticwebassets\\images\\noimage.svg"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ResumeManager.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ResumeManager.props",
+      "PackagePath": "build\\ResumeManager.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ResumeManager.props",
+      "PackagePath": "buildMultiTargeting\\ResumeManager.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ResumeManager.props",
+      "PackagePath": "buildTransitive\\ResumeManager.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

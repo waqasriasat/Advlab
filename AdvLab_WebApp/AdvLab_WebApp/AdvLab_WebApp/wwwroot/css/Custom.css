@@ -1,0 +1,42 @@
+﻿.FooterFix {
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+.BtnCreatIcon {
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9999;
+}
+@media only screen and (max-width: 915px) {
+    .SmallHide {
+        display: none;
+    }
+}
+@media only screen and (min-width: 915px) {
+    .smallAdd {
+        display: none;
+    }
+}
+.RadiusLRTop {
+    border-radius: 25px 24px 0px 0px;
+}
+.CardHeight{
+    height:150px;
+}
+
+.CardBrown {
+    background-color: firebrick;
+}
+
+.CardWhite {
+    background-color: white;
+}
+.borderfirst {
+    border: groove;
+    border-width: thin;
+    padding-bottom: 10px;
+    padding-top:5px;
+}
