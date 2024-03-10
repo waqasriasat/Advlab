@@ -1,403 +1,455 @@
 {
   "Files": [
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AdvLab_WebApp.bundle.scp.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AdvLab_WebApp.bundle.scp.css",
       "PackagePath": "staticwebassets\\AdvLab_WebApp.bundle.scp.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\DataTable\\datatables.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\DataTable\\datatables.css",
       "PackagePath": "staticwebassets\\DataTable\\datatables.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\DataTable\\datatables.min.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\DataTable\\datatables.min.css",
       "PackagePath": "staticwebassets\\DataTable\\datatables.min.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\Custom.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\Custom.css",
       "PackagePath": "staticwebassets\\css\\Custom.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\Formgroud.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\Formgroud.css",
       "PackagePath": "staticwebassets\\css\\Formgroud.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\all.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\all.css",
       "PackagePath": "staticwebassets\\css\\all.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\all.min.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\all.min.css",
       "PackagePath": "staticwebassets\\css\\all.min.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\brands.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\brands.css",
       "PackagePath": "staticwebassets\\css\\brands.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\brands.min.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\brands.min.css",
       "PackagePath": "staticwebassets\\css\\brands.min.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\fontawesome.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\fontawesome.css",
       "PackagePath": "staticwebassets\\css\\fontawesome.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\fontawesome.min.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\fontawesome.min.css",
       "PackagePath": "staticwebassets\\css\\fontawesome.min.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\regular.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\regular.css",
       "PackagePath": "staticwebassets\\css\\regular.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\regular.min.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\regular.min.css",
       "PackagePath": "staticwebassets\\css\\regular.min.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\site.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\solid.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\solid.css",
       "PackagePath": "staticwebassets\\css\\solid.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\solid.min.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\solid.min.css",
       "PackagePath": "staticwebassets\\css\\solid.min.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\svg-with-js.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\svg-with-js.css",
       "PackagePath": "staticwebassets\\css\\svg-with-js.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\svg-with-js.min.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\svg-with-js.min.css",
       "PackagePath": "staticwebassets\\css\\svg-with-js.min.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\v4-font-face.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\v4-font-face.css",
       "PackagePath": "staticwebassets\\css\\v4-font-face.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\v4-font-face.min.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\v4-font-face.min.css",
       "PackagePath": "staticwebassets\\css\\v4-font-face.min.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\v4-shims.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\v4-shims.css",
       "PackagePath": "staticwebassets\\css\\v4-shims.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\v4-shims.min.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\v4-shims.min.css",
       "PackagePath": "staticwebassets\\css\\v4-shims.min.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\v5-font-face.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\v5-font-face.css",
       "PackagePath": "staticwebassets\\css\\v5-font-face.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\v5-font-face.min.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\css\\v5-font-face.min.css",
       "PackagePath": "staticwebassets\\css\\v5-font-face.min.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\favicon.ico",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\img\\AddIcon.png",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\images\\1c71a114-8730-4df3-a8da-63f1b3358aa0_Screenshot (3).png",
+      "PackagePath": "staticwebassets\\images\\1c71a114-8730-4df3-a8da-63f1b3358aa0_Screenshot (3).png"
+    },
+    {
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\images\\2a733ee6-4790-4f0b-850f-4f12411ba828_Screenshot (2).png",
+      "PackagePath": "staticwebassets\\images\\2a733ee6-4790-4f0b-850f-4f12411ba828_Screenshot (2).png"
+    },
+    {
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\images\\420084a2-7ab4-46cf-b1fc-f1b95253fc48_Screenshot (2).png",
+      "PackagePath": "staticwebassets\\images\\420084a2-7ab4-46cf-b1fc-f1b95253fc48_Screenshot (2).png"
+    },
+    {
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\images\\49105ea8-068d-4554-8162-9153ae039feb_Screenshot (3).png",
+      "PackagePath": "staticwebassets\\images\\49105ea8-068d-4554-8162-9153ae039feb_Screenshot (3).png"
+    },
+    {
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\images\\4ab693ed-aa38-4e05-8814-52d771571bac_Screenshot (2).png",
+      "PackagePath": "staticwebassets\\images\\4ab693ed-aa38-4e05-8814-52d771571bac_Screenshot (2).png"
+    },
+    {
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\images\\56fd9789-a9df-490f-b857-11638839eeb2_Screenshot (2).png",
+      "PackagePath": "staticwebassets\\images\\56fd9789-a9df-490f-b857-11638839eeb2_Screenshot (2).png"
+    },
+    {
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\images\\7b926793-8467-4a49-84b5-9f570ba37924_Screenshot (3).png",
+      "PackagePath": "staticwebassets\\images\\7b926793-8467-4a49-84b5-9f570ba37924_Screenshot (3).png"
+    },
+    {
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\images\\8d9f12d8-7b78-47ae-b4d5-1e9c525f6a93_Screenshot (3).png",
+      "PackagePath": "staticwebassets\\images\\8d9f12d8-7b78-47ae-b4d5-1e9c525f6a93_Screenshot (3).png"
+    },
+    {
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\images\\8e757f7c-a73d-4bdd-97b1-6bef4930ccef_Screenshot (2).png",
+      "PackagePath": "staticwebassets\\images\\8e757f7c-a73d-4bdd-97b1-6bef4930ccef_Screenshot (2).png"
+    },
+    {
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\images\\9853e015-2c18-486d-af8d-6d394aca972c_Screenshot (3).png",
+      "PackagePath": "staticwebassets\\images\\9853e015-2c18-486d-af8d-6d394aca972c_Screenshot (3).png"
+    },
+    {
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\images\\9d50d805-fefb-4873-95bd-650d2abfecd0_Screenshot (2).png",
+      "PackagePath": "staticwebassets\\images\\9d50d805-fefb-4873-95bd-650d2abfecd0_Screenshot (2).png"
+    },
+    {
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\images\\b8480893-a299-4b63-9933-c077ab1f92aa_Screenshot (3).png",
+      "PackagePath": "staticwebassets\\images\\b8480893-a299-4b63-9933-c077ab1f92aa_Screenshot (3).png"
+    },
+    {
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\images\\fd33ec40-5229-4191-bc80-8cdcfeb52469_Screenshot (3).png",
+      "PackagePath": "staticwebassets\\images\\fd33ec40-5229-4191-bc80-8cdcfeb52469_Screenshot (3).png"
+    },
+    {
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\img\\AddIcon.png",
       "PackagePath": "staticwebassets\\img\\AddIcon.png"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\js\\DataTable_File.js",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\js\\DataTable_File.js",
       "PackagePath": "staticwebassets\\js\\DataTable_File.js"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\js\\ErrorMessage.js",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\js\\ErrorMessage.js",
       "PackagePath": "staticwebassets\\js\\ErrorMessage.js"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\js\\all.js",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\js\\all.js",
       "PackagePath": "staticwebassets\\js\\all.js"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\js\\all.min.js",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\js\\all.min.js",
       "PackagePath": "staticwebassets\\js\\all.min.js"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\js\\brands.js",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\js\\brands.js",
       "PackagePath": "staticwebassets\\js\\brands.js"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\js\\brands.min.js",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\js\\brands.min.js",
       "PackagePath": "staticwebassets\\js\\brands.min.js"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\js\\conflict-detection.js",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\js\\conflict-detection.js",
       "PackagePath": "staticwebassets\\js\\conflict-detection.js"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\js\\conflict-detection.min.js",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\js\\conflict-detection.min.js",
       "PackagePath": "staticwebassets\\js\\conflict-detection.min.js"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\js\\fontawesome.js",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\js\\fontawesome.js",
       "PackagePath": "staticwebassets\\js\\fontawesome.js"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\js\\fontawesome.min.js",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\js\\fontawesome.min.js",
       "PackagePath": "staticwebassets\\js\\fontawesome.min.js"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\js\\regular.js",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\js\\regular.js",
       "PackagePath": "staticwebassets\\js\\regular.js"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\js\\regular.min.js",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\js\\regular.min.js",
       "PackagePath": "staticwebassets\\js\\regular.min.js"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\js\\site.js",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\js\\solid.js",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\js\\solid.js",
       "PackagePath": "staticwebassets\\js\\solid.js"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\js\\solid.min.js",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\js\\solid.min.js",
       "PackagePath": "staticwebassets\\js\\solid.min.js"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\js\\v4-shims.js",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\js\\v4-shims.js",
       "PackagePath": "staticwebassets\\js\\v4-shims.js"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\js\\v4-shims.min.js",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\js\\v4-shims.min.js",
       "PackagePath": "staticwebassets\\js\\v4-shims.min.js"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApp\\AdvLab_WebApp\\AdvLab_WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
