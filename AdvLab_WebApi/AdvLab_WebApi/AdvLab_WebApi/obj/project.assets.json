@@ -4767,21 +4767,19 @@
   },
   "packageFolders": {
     "C:\\Users\\waqas\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApi\\AdvLab_WebApi\\AdvLab_WebApi\\AdvLab_WebApi.csproj",
+      "projectUniqueName": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApi\\AdvLab_WebApi\\AdvLab_WebApi\\AdvLab_WebApi.csproj",
       "projectName": "AdvLab_WebApi",
-      "projectPath": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApi\\AdvLab_WebApi\\AdvLab_WebApi\\AdvLab_WebApi.csproj",
+      "projectPath": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApi\\AdvLab_WebApi\\AdvLab_WebApi\\AdvLab_WebApi.csproj",
       "packagesPath": "C:\\Users\\waqas\\.nuget\\packages\\",
-      "outputPath": "D:\\Git_Project\\AdvLab\\Advlab\\AdvLab_WebApi\\AdvLab_WebApi\\AdvLab_WebApi\\obj\\",
+      "outputPath": "D:\\GIT Project\\Advlab.git\\AdvLab_WebApi\\AdvLab_WebApi\\AdvLab_WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\waqas\\AppData\\Roaming\\NuGet\\NuGet.Config",
