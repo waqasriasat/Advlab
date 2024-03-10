@@ -32,6 +32,7 @@ public partial class SampleEfContext : DbContext
     public virtual DbSet<DescQ> DescQs { get; set; }
     public virtual DbSet<DuesRecQ> DuesRecQs { get; set; }
     public virtual DbSet<PatReg> PatRegs { get; set; }
+    public virtual DbSet<PatReg_Shortkey> PatReg_Shortkeys { get; set; }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
 
