@@ -102,7 +102,6 @@ namespace ResumeManager.Controllers
         [HttpPost]
         public IActionResult Update(int id, Applicant updatedApplicant)
         {
-            //if (ModelState.IsValid)
             {
                 var existingApplicant = _context.Applicants
                     .Include(a => a.Experiences)
@@ -135,30 +134,6 @@ namespace ResumeManager.Controllers
                     return NotFound();
                 }
             }
-            // If model state is not valid, return to the edit view to display validation errors
-            //return View(updatedApplicant);
         }
-        //[HttpPost]
-        //public IActionResult Update(int id, Applicant updatedApplicant)
-        //{
-        //    {
-        //        var existingApplicant = _context.Applicants.FirstOrDefault(a => a.Id == id);
-        //        if (existingApplicant != null)
-        //        {
-        //            existingApplicant.Name = updatedApplicant.Name;
-        //            existingApplicant.Gender = updatedApplicant.Gender;
-        //            existingApplicant.Age = updatedApplicant.Age;
-        //            existingApplicant.Qualification = updatedApplicant.Qualification;
-        //            existingApplicant.TotalExperience = updatedApplicant.TotalExperience;
-        //            existingApplicant.Experiences = updatedApplicant.Experiences;
-        //            _context.SaveChanges();
-        //            return RedirectToAction("Index");
-        //        }
-        //        else
-        //        {
-        //            return NotFound();
-        //        }
-        //    }
-        //}
     }
 }

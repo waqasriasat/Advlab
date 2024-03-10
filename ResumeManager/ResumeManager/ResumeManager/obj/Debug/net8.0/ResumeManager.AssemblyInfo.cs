@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ResumeManager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fccd479c28bcfb04dcaf896a12b5820fcc18e77f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2af8393659ccebe72d9217e59c3eb5e4f8435efe")]
 [assembly: System.Reflection.AssemblyProductAttribute("ResumeManager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ResumeManager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

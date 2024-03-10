@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ntu8sxPU57SkYsZ7SwxDxm7t8oNQEPk6hdWqNk3wUGgEFJF89sal1VYoNXPUgIH0jxlp+oAyAOdlkUCNtls3/g==",
+  "dgSpecHash": "lYTTE7M+FJUJtECeuxPpYwSj7Mum68i3RfUDfJmMgR4earc2Otd2of6ch9/z+tsglJD84GRxVHKk55Jfsu3aiA==",
   "success": true,
-  "projectFilePath": "D:\\Git_Project\\AdvLab\\Advlab\\ResumeManager\\ResumeManager\\ResumeManager\\ResumeManager.csproj",
+  "projectFilePath": "D:\\GIT Project\\Advlab.git\\ResumeManager\\ResumeManager\\ResumeManager\\ResumeManager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\waqas\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\waqas\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
