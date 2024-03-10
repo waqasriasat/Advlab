@@ -1862,22 +1862,23 @@ namespace AdvLab_WebApi.Migrations
 
             modelBuilder.Entity("AdvLab_WebApi.Models.DescCashier", b =>
                 {
-                    b.Property<int>("ID")
+                    b.Property<int>("LabNo")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("LabNo"));
 
-                    b.Property<int?>("BillNo")
+                    b.Property<int>("BillNo")
                         .HasColumnType("int");
 
-                    b.Property<double?>("BlanceA")
+                    b.Property<double>("BlanceA")
                         .HasColumnType("float");
 
                     b.Property<string>("CStatus")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("ClientID")
+                    b.Property<int>("ClientID")
                         .HasColumnType("int");
 
                     b.Property<string>("ClientName")
@@ -1905,15 +1906,16 @@ namespace AdvLab_WebApi.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CreditCardNo")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<double?>("CurrentB")
+                    b.Property<double>("CurrentB")
                         .HasColumnType("float");
 
-                    b.Property<double?>("DiscPer")
+                    b.Property<double>("DiscPer")
                         .HasColumnType("float");
 
-                    b.Property<double?>("Discount")
+                    b.Property<double>("Discount")
                         .HasColumnType("float");
 
                     b.Property<string>("DortocSMS")
@@ -1921,29 +1923,24 @@ namespace AdvLab_WebApi.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("F_VNo")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<double?>("GrossA")
+                    b.Property<double>("GrossA")
                         .HasColumnType("float");
 
                     b.Property<string>("Idloc")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("InvNo")
-                        .HasColumnType("int");
-
                     b.Property<string>("InvoiceSMS")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("LabNo")
+                    b.Property<int>("MRNO")
                         .HasColumnType("int");
 
-                    b.Property<int?>("MRNO")
-                        .HasColumnType("int");
-
-                    b.Property<double?>("PaidA")
+                    b.Property<double>("PaidA")
                         .HasColumnType("float");
 
                     b.Property<string>("PaymentMode")
@@ -1955,50 +1952,49 @@ namespace AdvLab_WebApi.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("RIdloc1")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("RUId1")
+                    b.Property<int>("RUId1")
                         .HasColumnType("int");
 
-                    b.Property<string>("RUname")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("RV")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("RV1")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<double?>("RbalanceA")
+                    b.Property<double>("RbalanceA")
                         .HasColumnType("float");
 
-                    b.Property<DateTime?>("RbalanceDate")
+                    b.Property<DateTime>("RbalanceDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime?>("RegDate")
+                    b.Property<DateTime>("RegDate")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("SV")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<double?>("TaxN")
+                    b.Property<double>("TaxN")
                         .HasColumnType("float");
 
                     b.Property<string>("TestCode")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<double?>("TotalA")
+                    b.Property<double>("TotalA")
                         .HasColumnType("float");
 
-                    b.Property<int?>("UId")
+                    b.Property<int>("UId")
                         .HasColumnType("int");
 
-                    b.Property<string>("Uname")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.HasKey("LabNo");
 
-                    b.HasKey("ID");
+                    b.HasIndex("MRNO");
 
                     b.ToTable("DescCashiers");
                 });
@@ -2015,92 +2011,28 @@ namespace AdvLab_WebApi.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("CNL")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Category")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("Charges")
+                    b.Property<int>("Charges")
                         .HasColumnType("int");
-
-                    b.Property<string>("CpName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("CpNo")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("DStatus")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Depart")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("DescID")
+                    b.Property<int>("DescID")
                         .HasColumnType("int");
 
-                    b.Property<string>("DescName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Gname")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Idloc")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("InvNo")
+                    b.Property<int>("LabNo")
                         .HasColumnType("int");
 
-                    b.Property<int?>("LabNo")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("MRNO")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Placement")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime?>("RegDate")
+                    b.Property<DateTime>("RepDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime?>("RepDate")
+                    b.Property<DateTime>("StatusDate")
                         .HasColumnType("datetime2");
-
-                    b.Property<string>("ReportHeading")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Section")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime?>("StatusDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("SubDepart")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("TestCode")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("UId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Uname")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("ID");
+
+                    b.HasIndex("LabNo");
 
                     b.ToTable("DescLabs");
                 });
@@ -2229,31 +2161,28 @@ namespace AdvLab_WebApi.Migrations
 
             modelBuilder.Entity("AdvLab_WebApi.Models.PatReg", b =>
                 {
-                    b.Property<int>("ID")
+                    b.Property<int>("MRNO")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MRNO"));
 
-                    b.Property<string>("Age")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("Age")
+                        .HasColumnType("int");
 
                     b.Property<string>("AgeType")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("CompMac")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ContNo")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime?>("DBO")
+                    b.Property<DateTime>("DBO")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Email")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("FirstName")
@@ -2265,37 +2194,120 @@ namespace AdvLab_WebApi.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Idloc")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Initial")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime?>("LastUpdate")
+                    b.Property<DateTime>("LastUpdate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("MrNo")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime?>("RegDate")
+                    b.Property<DateTime>("RegDate")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("RelName")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Relation")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("UId")
+                    b.Property<int>("UId")
                         .HasColumnType("int");
 
-                    b.Property<string>("Uname")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("ID");
+                    b.HasKey("MRNO");
 
                     b.ToTable("PatRegs");
+                });
+
+            modelBuilder.Entity("AdvLab_WebApi.Models.PatReg_Shortkey", b =>
+                {
+                    b.Property<int>("Sno")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Sno"));
+
+                    b.Property<string>("Gender")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Initial")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Relation")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Years")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Sno");
+
+                    b.ToTable("PatReg_Shortkeys");
+
+                    b.HasData(
+                        new
+                        {
+                            Sno = 1,
+                            Gender = "MALE",
+                            Initial = "MR",
+                            Relation = "S/O",
+                            Years = "YEARS"
+                        },
+                        new
+                        {
+                            Sno = 2,
+                            Gender = "FEMALE",
+                            Initial = "MRS",
+                            Relation = "W/O",
+                            Years = "YEARS"
+                        },
+                        new
+                        {
+                            Sno = 3,
+                            Gender = "FEMALE",
+                            Initial = "MISS",
+                            Relation = "D/O",
+                            Years = "YEARS"
+                        },
+                        new
+                        {
+                            Sno = 4,
+                            Gender = "MALE",
+                            Initial = "MASTER",
+                            Relation = "S/O",
+                            Years = ""
+                        },
+                        new
+                        {
+                            Sno = 5,
+                            Gender = "FEMALE",
+                            Initial = "BABY",
+                            Relation = "D/O",
+                            Years = ""
+                        },
+                        new
+                        {
+                            Sno = 6,
+                            Gender = "FEMALE",
+                            Initial = "MS",
+                            Relation = "D/O",
+                            Years = ""
+                        },
+                        new
+                        {
+                            Sno = 7,
+                            Gender = "",
+                            Initial = "DR",
+                            Relation = "",
+                            Years = ""
+                        });
                 });
 
             modelBuilder.Entity("AdvLab_WebApi.Models.Role", b =>
@@ -2514,6 +2526,33 @@ namespace AdvLab_WebApi.Migrations
                             UName = "Admin",
                             UPassword = "admin@786"
                         });
+                });
+
+            modelBuilder.Entity("AdvLab_WebApi.Models.DescCashier", b =>
+                {
+                    b.HasOne("AdvLab_WebApi.Models.PatReg", "PatReg")
+                        .WithMany()
+                        .HasForeignKey("MRNO")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("PatReg");
+                });
+
+            modelBuilder.Entity("AdvLab_WebApi.Models.DescLab", b =>
+                {
+                    b.HasOne("AdvLab_WebApi.Models.DescCashier", "DescCashier")
+                        .WithMany("DescLabs")
+                        .HasForeignKey("LabNo")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("DescCashier");
+                });
+
+            modelBuilder.Entity("AdvLab_WebApi.Models.DescCashier", b =>
+                {
+                    b.Navigation("DescLabs");
                 });
 #pragma warning restore 612, 618
         }

@@ -8,7 +8,7 @@ namespace AdvLab_WebApi.Models
         public AppDBContext(DbContextOptions<AppDBContext> options) : base(options)
         {
         }
-       
+
         public DbSet<User> Users { get; set; }
         public virtual DbSet<LoginLog> LoginLogs { get; set; }
         public virtual DbSet<AddLocation> AddLocations { get; set; }
@@ -26,6 +26,7 @@ namespace AdvLab_WebApi.Models
         public virtual DbSet<DescQ> DescQs { get; set; }
         public virtual DbSet<DuesRecQ> DuesRecQs { get; set; }
         public virtual DbSet<PatReg> PatRegs { get; set; }
+        public virtual DbSet<PatReg_Shortkey> PatReg_Shortkeys { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -42,6 +43,15 @@ namespace AdvLab_WebApi.Models
                 CNL = "MAIN-LAB",
                 DefaultClient = "SELF"
             });
+            modelBuilder.Entity<PatReg_Shortkey>().HasData(
+        new PatReg_Shortkey { Sno = 1, Initial = "MR", Relation = "S/O", Years = "YEARS", Gender = "MALE" },
+        new PatReg_Shortkey { Sno = 2, Initial = "MRS", Relation = "W/O", Years = "YEARS", Gender = "FEMALE" },
+        new PatReg_Shortkey { Sno = 3, Initial = "MISS", Relation = "D/O", Years = "YEARS", Gender = "FEMALE" },
+        new PatReg_Shortkey { Sno = 4, Initial = "MASTER", Relation = "S/O", Years = "", Gender = "MALE" },
+        new PatReg_Shortkey { Sno = 5, Initial = "BABY", Relation = "D/O", Years = "", Gender = "FEMALE" },
+        new PatReg_Shortkey { Sno = 6, Initial = "MS", Relation = "D/O", Years = "", Gender = "FEMALE" },
+        new PatReg_Shortkey { Sno = 7, Initial = "DR", Relation = "", Years = "", Gender = "" }
+    );
             modelBuilder.Entity<User>().HasData(
                 new User()
                 {
