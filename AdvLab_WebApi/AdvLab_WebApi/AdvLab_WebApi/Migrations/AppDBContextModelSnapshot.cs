@@ -43,6 +43,1899 @@ namespace AdvLab_WebApi.Migrations
                     b.HasKey("ID");
 
                     b.ToTable("AccessRights");
+
+                    b.HasData(
+                        new
+                        {
+                            ID = 1,
+                            Assigning = "Deshboard Header Administrator",
+                            EmpID = 1,
+                            SOR = 1
+                        },
+                        new
+                        {
+                            ID = 2,
+                            Assigning = "Deshboard Header Order Booking",
+                            EmpID = 1,
+                            SOR = 2
+                        },
+                        new
+                        {
+                            ID = 3,
+                            Assigning = "Deshboard Header Pathology",
+                            EmpID = 1,
+                            SOR = 5
+                        },
+                        new
+                        {
+                            ID = 4,
+                            Assigning = "Deshboard Header Radiology",
+                            EmpID = 1,
+                            SOR = 6
+                        },
+                        new
+                        {
+                            ID = 5,
+                            Assigning = "Deshboard Header User Information",
+                            EmpID = 1,
+                            SOR = 7
+                        },
+                        new
+                        {
+                            ID = 6,
+                            Assigning = "Deshboard Header Human Resources",
+                            EmpID = 1,
+                            SOR = 8
+                        },
+                        new
+                        {
+                            ID = 7,
+                            Assigning = "Deshboard Header OPD",
+                            EmpID = 1,
+                            SOR = 12
+                        },
+                        new
+                        {
+                            ID = 8,
+                            Assigning = "Deshboard Header SMS",
+                            EmpID = 1,
+                            SOR = 15
+                        },
+                        new
+                        {
+                            ID = 9,
+                            Assigning = "Deshboard Header Loyalti",
+                            EmpID = 1,
+                            SOR = 19
+                        },
+                        new
+                        {
+                            ID = 10,
+                            Assigning = "Deshboard Header Marketing",
+                            EmpID = 1,
+                            SOR = 21
+                        },
+                        new
+                        {
+                            ID = 11,
+                            Assigning = "Deshboard Header CSR",
+                            EmpID = 1,
+                            SOR = 22
+                        },
+                        new
+                        {
+                            ID = 12,
+                            Assigning = "Deshboard Header Company Deshboard",
+                            EmpID = 1,
+                            SOR = 25
+                        },
+                        new
+                        {
+                            ID = 13,
+                            Assigning = "Administrator MenuStrip Employee Information",
+                            EmpID = 1,
+                            SOR = 51
+                        },
+                        new
+                        {
+                            ID = 14,
+                            Assigning = "Administrator MenuStrip Client Registration",
+                            EmpID = 1,
+                            SOR = 52
+                        },
+                        new
+                        {
+                            ID = 15,
+                            Assigning = "Administrator MenuStrip Change Reporting Date",
+                            EmpID = 1,
+                            SOR = 53
+                        },
+                        new
+                        {
+                            ID = 16,
+                            Assigning = "Administrator MenuStrip Panal Dues Received",
+                            EmpID = 1,
+                            SOR = 54
+                        },
+                        new
+                        {
+                            ID = 17,
+                            Assigning = "Administrator MenuStrip Expenses",
+                            EmpID = 1,
+                            SOR = 55
+                        },
+                        new
+                        {
+                            ID = 18,
+                            Assigning = "Administrator MenuStrip Admin LOV",
+                            EmpID = 1,
+                            SOR = 56
+                        },
+                        new
+                        {
+                            ID = 19,
+                            Assigning = "Administrator MenuStrip Department LOV",
+                            EmpID = 1,
+                            SOR = 57
+                        },
+                        new
+                        {
+                            ID = 20,
+                            Assigning = "Administrator MenuStrip Pateint Payment Refund",
+                            EmpID = 1,
+                            SOR = 58
+                        },
+                        new
+                        {
+                            ID = 21,
+                            Assigning = "Administrator MenuStrip Description Cancellation",
+                            EmpID = 1,
+                            SOR = 59
+                        },
+                        new
+                        {
+                            ID = 22,
+                            Assigning = "Administrator MenuStrip My Company Detail",
+                            EmpID = 1,
+                            SOR = 60
+                        },
+                        new
+                        {
+                            ID = 23,
+                            Assigning = "Administrator MenuStrip Check Out List",
+                            EmpID = 1,
+                            SOR = 61
+                        },
+                        new
+                        {
+                            ID = 24,
+                            Assigning = "Administrator MenuStrip Finance Report",
+                            EmpID = 1,
+                            SOR = 62
+                        },
+                        new
+                        {
+                            ID = 25,
+                            Assigning = "Finance Report TextBox Location",
+                            EmpID = 1,
+                            SOR = 64
+                        },
+                        new
+                        {
+                            ID = 26,
+                            Assigning = "Administrator MenuStrip Change to Client",
+                            EmpID = 1,
+                            SOR = 65
+                        },
+                        new
+                        {
+                            ID = 27,
+                            Assigning = "Administrator MenuStrip User Summary",
+                            EmpID = 1,
+                            SOR = 66
+                        },
+                        new
+                        {
+                            ID = 28,
+                            Assigning = "Administrator MenuStrip Pdf Regenerate",
+                            EmpID = 1,
+                            SOR = 67
+                        },
+                        new
+                        {
+                            ID = 29,
+                            Assigning = "Administrator MenuStrip Invoices Update Log",
+                            EmpID = 1,
+                            SOR = 68
+                        },
+                        new
+                        {
+                            ID = 30,
+                            Assigning = "Administrator MenuStrip Report Forword to ERM",
+                            EmpID = 1,
+                            SOR = 69
+                        },
+                        new
+                        {
+                            ID = 31,
+                            Assigning = "Administrator MenuStrip Adjust Sample CNL",
+                            EmpID = 1,
+                            SOR = 76
+                        },
+                        new
+                        {
+                            ID = 32,
+                            Assigning = "Administrator MenuStrip Cancellation Update",
+                            EmpID = 1,
+                            SOR = 80
+                        },
+                        new
+                        {
+                            ID = 33,
+                            Assigning = "Administrator MenuStrip OTP",
+                            EmpID = 1,
+                            SOR = 82
+                        },
+                        new
+                        {
+                            ID = 34,
+                            Assigning = "Administrator MenuStrip Manual Editing",
+                            EmpID = 1,
+                            SOR = 83
+                        },
+                        new
+                        {
+                            ID = 35,
+                            Assigning = "Administrator MenuStrip Add Client Approval",
+                            EmpID = 1,
+                            SOR = 85
+                        },
+                        new
+                        {
+                            ID = 36,
+                            Assigning = "Administrator MenuStrip Add User Approval",
+                            EmpID = 1,
+                            SOR = 86
+                        },
+                        new
+                        {
+                            ID = 37,
+                            Assigning = "Administrator MenuStrip Bulk Sample Transfer",
+                            EmpID = 1,
+                            SOR = 89
+                        },
+                        new
+                        {
+                            ID = 38,
+                            Assigning = "Administrator MenuStrip Franchise Client Registration",
+                            EmpID = 1,
+                            SOR = 92
+                        },
+                        new
+                        {
+                            ID = 39,
+                            Assigning = "Administrator MenuStrip Interlink Management",
+                            EmpID = 1,
+                            SOR = 93
+                        },
+                        new
+                        {
+                            ID = 40,
+                            Assigning = "AdminLOV MenuStrip Add Status",
+                            EmpID = 1,
+                            SOR = 101
+                        },
+                        new
+                        {
+                            ID = 41,
+                            Assigning = "AdminLOV MenuStrip Add Location",
+                            EmpID = 1,
+                            SOR = 102
+                        },
+                        new
+                        {
+                            ID = 42,
+                            Assigning = "AdminLOV MenuStrip Add Description",
+                            EmpID = 1,
+                            SOR = 103
+                        },
+                        new
+                        {
+                            ID = 43,
+                            Assigning = "AdminLOV MenuStrip Add Depart",
+                            EmpID = 1,
+                            SOR = 104
+                        },
+                        new
+                        {
+                            ID = 44,
+                            Assigning = "AdminLOV MenuStrip Add SubDepart",
+                            EmpID = 1,
+                            SOR = 105
+                        },
+                        new
+                        {
+                            ID = 45,
+                            Assigning = "AdminLOV MenuStrip Add Consultant",
+                            EmpID = 1,
+                            SOR = 106
+                        },
+                        new
+                        {
+                            ID = 46,
+                            Assigning = "AdminLOV MenuStrip Add Section",
+                            EmpID = 1,
+                            SOR = 107
+                        },
+                        new
+                        {
+                            ID = 47,
+                            Assigning = "AdminLOV MenuStrip Add Place",
+                            EmpID = 1,
+                            SOR = 108
+                        },
+                        new
+                        {
+                            ID = 48,
+                            Assigning = "AdminLOV MenuStrip Add Place Category",
+                            EmpID = 1,
+                            SOR = 109
+                        },
+                        new
+                        {
+                            ID = 49,
+                            Assigning = "AdminLOV MenuStrip Add Designation",
+                            EmpID = 1,
+                            SOR = 110
+                        },
+                        new
+                        {
+                            ID = 50,
+                            Assigning = "AdminLOV MenuStrip Add Expenser Name",
+                            EmpID = 1,
+                            SOR = 111
+                        },
+                        new
+                        {
+                            ID = 51,
+                            Assigning = "AdminLOV MenuStrip Add Expenses Purpose",
+                            EmpID = 1,
+                            SOR = 112
+                        },
+                        new
+                        {
+                            ID = 52,
+                            Assigning = "AdminLOV MenuStrip Add Connecting Lab",
+                            EmpID = 1,
+                            SOR = 113
+                        },
+                        new
+                        {
+                            ID = 53,
+                            Assigning = "AdminLOV MenuStrip Add Other Lab Send Sample",
+                            EmpID = 1,
+                            SOR = 114
+                        },
+                        new
+                        {
+                            ID = 54,
+                            Assigning = "AdminLOV MenuStrip Add Discount Athorities",
+                            EmpID = 1,
+                            SOR = 115
+                        },
+                        new
+                        {
+                            ID = 55,
+                            Assigning = "AdminLOV MenuStrip Add Editable Athorities",
+                            EmpID = 1,
+                            SOR = 116
+                        },
+                        new
+                        {
+                            ID = 56,
+                            Assigning = "AdminLOV MenuStrip Add Balance Athorities",
+                            EmpID = 1,
+                            SOR = 117
+                        },
+                        new
+                        {
+                            ID = 57,
+                            Assigning = "AdminLOV MenuStrip Invoice Update of New RateList",
+                            EmpID = 1,
+                            SOR = 118
+                        },
+                        new
+                        {
+                            ID = 58,
+                            Assigning = "AdminLOV MenuStrip Add Location Athorities",
+                            EmpID = 1,
+                            SOR = 120
+                        },
+                        new
+                        {
+                            ID = 59,
+                            Assigning = "AdminLOV MenuStrip Add Country",
+                            EmpID = 1,
+                            SOR = 121
+                        },
+                        new
+                        {
+                            ID = 60,
+                            Assigning = "AdminLOV MenuStrip Add City",
+                            EmpID = 1,
+                            SOR = 122
+                        },
+                        new
+                        {
+                            ID = 61,
+                            Assigning = "AdminLOV MenuStrip Add Area",
+                            EmpID = 1,
+                            SOR = 123
+                        },
+                        new
+                        {
+                            ID = 62,
+                            Assigning = "AdminLOV MenuStrip Add DrStamp",
+                            EmpID = 1,
+                            SOR = 124
+                        },
+                        new
+                        {
+                            ID = 63,
+                            Assigning = "Department LOV MenuStrip Add Page LOV",
+                            EmpID = 1,
+                            SOR = 151
+                        },
+                        new
+                        {
+                            ID = 64,
+                            Assigning = "Department LOV MenuStrip Add Culture Short Key",
+                            EmpID = 1,
+                            SOR = 152
+                        },
+                        new
+                        {
+                            ID = 65,
+                            Assigning = "Department LOV MenuStrip Change Description Setting",
+                            EmpID = 1,
+                            SOR = 155
+                        },
+                        new
+                        {
+                            ID = 66,
+                            Assigning = "Order Booking MenuStrip Main Reception",
+                            EmpID = 1,
+                            SOR = 201
+                        },
+                        new
+                        {
+                            ID = 67,
+                            Assigning = "Order Booking MenuStrip Report Status",
+                            EmpID = 1,
+                            SOR = 203
+                        },
+                        new
+                        {
+                            ID = 68,
+                            Assigning = "Order Booking MenuStrip Summary Status",
+                            EmpID = 1,
+                            SOR = 204
+                        },
+                        new
+                        {
+                            ID = 69,
+                            Assigning = "Order Booking MenuStrip Rate Slip",
+                            EmpID = 1,
+                            SOR = 205
+                        },
+                        new
+                        {
+                            ID = 70,
+                            Assigning = "Order Booking MenuStrip OPD Reception",
+                            EmpID = 1,
+                            SOR = 209
+                        },
+                        new
+                        {
+                            ID = 71,
+                            Assigning = "Order Booking MenuStrip Appointment Registration",
+                            EmpID = 1,
+                            SOR = 210
+                        },
+                        new
+                        {
+                            ID = 72,
+                            Assigning = "Order Booking MenuStrip Appointment Status",
+                            EmpID = 1,
+                            SOR = 211
+                        },
+                        new
+                        {
+                            ID = 73,
+                            Assigning = "Order Booking MenuStrip Government Summary For Covid",
+                            EmpID = 1,
+                            SOR = 212
+                        },
+                        new
+                        {
+                            ID = 74,
+                            Assigning = "Order Booking MenuStrip Make Client PDFs",
+                            EmpID = 1,
+                            SOR = 213
+                        },
+                        new
+                        {
+                            ID = 75,
+                            Assigning = "Order Booking MenuStrip Resource Request Form",
+                            EmpID = 1,
+                            SOR = 216
+                        },
+                        new
+                        {
+                            ID = 76,
+                            Assigning = "Order Editing MenuStrip Edit Flight Detail",
+                            EmpID = 1,
+                            SOR = 225
+                        },
+                        new
+                        {
+                            ID = 77,
+                            Assigning = "Order Editing MenuStrip Edit Cash Detail",
+                            EmpID = 1,
+                            SOR = 226
+                        },
+                        new
+                        {
+                            ID = 78,
+                            Assigning = "Order Editing MenuStrip Edit Client Detail",
+                            EmpID = 1,
+                            SOR = 227
+                        },
+                        new
+                        {
+                            ID = 79,
+                            Assigning = "Patient Registration Button Edit",
+                            EmpID = 1,
+                            SOR = 240
+                        },
+                        new
+                        {
+                            ID = 80,
+                            Assigning = "Pathology MenuStrip Phlebotomy Acknowledge",
+                            EmpID = 1,
+                            SOR = 351
+                        },
+                        new
+                        {
+                            ID = 81,
+                            Assigning = "Pathology MenuStrip Section Acknowledge",
+                            EmpID = 1,
+                            SOR = 352
+                        },
+                        new
+                        {
+                            ID = 82,
+                            Assigning = "Pathology MenuStrip Batch Generate",
+                            EmpID = 1,
+                            SOR = 353
+                        },
+                        new
+                        {
+                            ID = 83,
+                            Assigning = "Pathology MenuStrip Batch Received",
+                            EmpID = 1,
+                            SOR = 354
+                        },
+                        new
+                        {
+                            ID = 84,
+                            Assigning = "Pathology MenuStrip Pathology Reporting",
+                            EmpID = 1,
+                            SOR = 355
+                        },
+                        new
+                        {
+                            ID = 85,
+                            Assigning = "Pathology MenuStrip Serological Reporting",
+                            EmpID = 1,
+                            SOR = 356
+                        },
+                        new
+                        {
+                            ID = 86,
+                            Assigning = "Pathology MenuStrip Molecular Pathology",
+                            EmpID = 1,
+                            SOR = 357
+                        },
+                        new
+                        {
+                            ID = 87,
+                            Assigning = "Pathology MenuStrip Send Sample",
+                            EmpID = 1,
+                            SOR = 358
+                        },
+                        new
+                        {
+                            ID = 88,
+                            Assigning = "Pathology MenuStrip True Follow Acknowlegdement",
+                            EmpID = 1,
+                            SOR = 359
+                        },
+                        new
+                        {
+                            ID = 89,
+                            Assigning = "Pathology MenuStrip Select a Change Status",
+                            EmpID = 1,
+                            SOR = 370
+                        },
+                        new
+                        {
+                            ID = 90,
+                            Assigning = "Pathology MenuStrip Lab Number Release",
+                            EmpID = 1,
+                            SOR = 371
+                        },
+                        new
+                        {
+                            ID = 91,
+                            Assigning = "Pathology MenuStrip Average Report",
+                            EmpID = 1,
+                            SOR = 372
+                        },
+                        new
+                        {
+                            ID = 92,
+                            Assigning = "Pathology MenuStrip Home Sample Received",
+                            EmpID = 1,
+                            SOR = 373
+                        },
+                        new
+                        {
+                            ID = 93,
+                            Assigning = "Pathology MenuStrip Sample Tracking System",
+                            EmpID = 1,
+                            SOR = 376
+                        },
+                        new
+                        {
+                            ID = 94,
+                            Assigning = "Pathology MenuStrip Sample Rejection",
+                            EmpID = 1,
+                            SOR = 379
+                        },
+                        new
+                        {
+                            ID = 95,
+                            Assigning = "Radiology MenuStrip Radiology Reporting",
+                            EmpID = 1,
+                            SOR = 402
+                        },
+                        new
+                        {
+                            ID = 96,
+                            Assigning = "Radiology MenuStrip Average Report",
+                            EmpID = 1,
+                            SOR = 403
+                        },
+                        new
+                        {
+                            ID = 97,
+                            Assigning = "User Information MenuStrip User Registration",
+                            EmpID = 1,
+                            SOR = 451
+                        },
+                        new
+                        {
+                            ID = 98,
+                            Assigning = "User Information MenuStrip Again Login",
+                            EmpID = 1,
+                            SOR = 452
+                        },
+                        new
+                        {
+                            ID = 99,
+                            Assigning = "User Information MenuStrip Change Password",
+                            EmpID = 1,
+                            SOR = 453
+                        },
+                        new
+                        {
+                            ID = 100,
+                            Assigning = "Human Resources MenuStrip Attendance Record",
+                            EmpID = 1,
+                            SOR = 501
+                        },
+                        new
+                        {
+                            ID = 101,
+                            Assigning = "Human Resources MenuStrip Add Salary",
+                            EmpID = 1,
+                            SOR = 502
+                        },
+                        new
+                        {
+                            ID = 102,
+                            Assigning = "Human Resources MenuStrip Pay Slip Print",
+                            EmpID = 1,
+                            SOR = 503
+                        },
+                        new
+                        {
+                            ID = 103,
+                            Assigning = "Human Resources MenuStrip Add Loan Deducation",
+                            EmpID = 1,
+                            SOR = 504
+                        },
+                        new
+                        {
+                            ID = 104,
+                            Assigning = "Human Resources MenuStrip Add Holiday",
+                            EmpID = 1,
+                            SOR = 505
+                        },
+                        new
+                        {
+                            ID = 105,
+                            Assigning = "Human Resources MenuStrip Generate Pay Slip",
+                            EmpID = 1,
+                            SOR = 506
+                        },
+                        new
+                        {
+                            ID = 106,
+                            Assigning = "Connectivity MenuStrip Crystal Report Path",
+                            EmpID = 1,
+                            SOR = 507
+                        },
+                        new
+                        {
+                            ID = 107,
+                            Assigning = "Human Resources MenuStrip Add Leave",
+                            EmpID = 1,
+                            SOR = 510
+                        },
+                        new
+                        {
+                            ID = 108,
+                            Assigning = "Attendance Record TextBox Location",
+                            EmpID = 1,
+                            SOR = 520
+                        },
+                        new
+                        {
+                            ID = 109,
+                            Assigning = "Human Resources MenuStrip Thumb Attendance Record",
+                            EmpID = 1,
+                            SOR = 521
+                        },
+                        new
+                        {
+                            ID = 110,
+                            Assigning = "Pateint Cancellation Button Find",
+                            EmpID = 1,
+                            SOR = 561
+                        },
+                        new
+                        {
+                            ID = 111,
+                            Assigning = "Pateint Cancellation Button Update",
+                            EmpID = 1,
+                            SOR = 562
+                        },
+                        new
+                        {
+                            ID = 112,
+                            Assigning = "Pateint Cancellation Button Print",
+                            EmpID = 1,
+                            SOR = 563
+                        },
+                        new
+                        {
+                            ID = 113,
+                            Assigning = "User Summary TextBox User ID Box",
+                            EmpID = 1,
+                            SOR = 564
+                        },
+                        new
+                        {
+                            ID = 114,
+                            Assigning = "Pateint Payment Refund Button Find",
+                            EmpID = 1,
+                            SOR = 601
+                        },
+                        new
+                        {
+                            ID = 115,
+                            Assigning = "Pateint Payment Refund Button Update",
+                            EmpID = 1,
+                            SOR = 602
+                        },
+                        new
+                        {
+                            ID = 116,
+                            Assigning = "Pateint Payment Refund Button Print",
+                            EmpID = 1,
+                            SOR = 603
+                        },
+                        new
+                        {
+                            ID = 117,
+                            Assigning = "Employee Personal Information Button Find",
+                            EmpID = 1,
+                            SOR = 651
+                        },
+                        new
+                        {
+                            ID = 118,
+                            Assigning = "Employee Personal Information Button Save",
+                            EmpID = 1,
+                            SOR = 652
+                        },
+                        new
+                        {
+                            ID = 119,
+                            Assigning = "Employee Personal Information Button Print",
+                            EmpID = 1,
+                            SOR = 653
+                        },
+                        new
+                        {
+                            ID = 120,
+                            Assigning = "Employee Personal Information Button Edit",
+                            EmpID = 1,
+                            SOR = 654
+                        },
+                        new
+                        {
+                            ID = 121,
+                            Assigning = "Client Registration Button Find",
+                            EmpID = 1,
+                            SOR = 701
+                        },
+                        new
+                        {
+                            ID = 122,
+                            Assigning = "Client Registration Button Save",
+                            EmpID = 1,
+                            SOR = 702
+                        },
+                        new
+                        {
+                            ID = 123,
+                            Assigning = "Client Registration Button Print",
+                            EmpID = 1,
+                            SOR = 703
+                        },
+                        new
+                        {
+                            ID = 124,
+                            Assigning = "Client Registration Button Edit",
+                            EmpID = 1,
+                            SOR = 704
+                        },
+                        new
+                        {
+                            ID = 125,
+                            Assigning = "Client Registration Button Desc Link Visiable",
+                            EmpID = 1,
+                            SOR = 705
+                        },
+                        new
+                        {
+                            ID = 126,
+                            Assigning = "Client Registration CheckBox Price Change Visiable",
+                            EmpID = 1,
+                            SOR = 706
+                        },
+                        new
+                        {
+                            ID = 127,
+                            Assigning = "Client Registration TextBox Location",
+                            EmpID = 1,
+                            SOR = 707
+                        },
+                        new
+                        {
+                            ID = 128,
+                            Assigning = "Add Client Description Button Find",
+                            EmpID = 1,
+                            SOR = 751
+                        },
+                        new
+                        {
+                            ID = 129,
+                            Assigning = "Add Client Description Button Save",
+                            EmpID = 1,
+                            SOR = 752
+                        },
+                        new
+                        {
+                            ID = 130,
+                            Assigning = "Add Client Description Button Print",
+                            EmpID = 1,
+                            SOR = 753
+                        },
+                        new
+                        {
+                            ID = 131,
+                            Assigning = "Add Client Description Button Edit",
+                            EmpID = 1,
+                            SOR = 754
+                        },
+                        new
+                        {
+                            ID = 132,
+                            Assigning = "Add Client Description Button Apply",
+                            EmpID = 1,
+                            SOR = 755
+                        },
+                        new
+                        {
+                            ID = 133,
+                            Assigning = "Add Client Description Button Forword",
+                            EmpID = 1,
+                            SOR = 756
+                        },
+                        new
+                        {
+                            ID = 134,
+                            Assigning = "Add Client Description Button Selected All",
+                            EmpID = 1,
+                            SOR = 757
+                        },
+                        new
+                        {
+                            ID = 135,
+                            Assigning = "Add Client Description Button Selected None",
+                            EmpID = 1,
+                            SOR = 758
+                        },
+                        new
+                        {
+                            ID = 136,
+                            Assigning = "Main Reception Button Find",
+                            EmpID = 1,
+                            SOR = 801
+                        },
+                        new
+                        {
+                            ID = 137,
+                            Assigning = "Main Reception Button Save",
+                            EmpID = 1,
+                            SOR = 802
+                        },
+                        new
+                        {
+                            ID = 138,
+                            Assigning = "Main Reception Button Apply",
+                            EmpID = 1,
+                            SOR = 803
+                        },
+                        new
+                        {
+                            ID = 139,
+                            Assigning = "Main Reception Button Edit",
+                            EmpID = 1,
+                            SOR = 804
+                        },
+                        new
+                        {
+                            ID = 140,
+                            Assigning = "Main Reception Button Update",
+                            EmpID = 1,
+                            SOR = 805
+                        },
+                        new
+                        {
+                            ID = 141,
+                            Assigning = "Main Reception Button Print",
+                            EmpID = 1,
+                            SOR = 806
+                        },
+                        new
+                        {
+                            ID = 142,
+                            Assigning = "Main Reception Button Barcode",
+                            EmpID = 1,
+                            SOR = 807
+                        },
+                        new
+                        {
+                            ID = 143,
+                            Assigning = "Main Reception ComboBox DiscBox",
+                            EmpID = 1,
+                            SOR = 808
+                        },
+                        new
+                        {
+                            ID = 144,
+                            Assigning = "Main Reception Button Delete",
+                            EmpID = 1,
+                            SOR = 810
+                        },
+                        new
+                        {
+                            ID = 145,
+                            Assigning = "Blood Bank Reception Button Barcode",
+                            EmpID = 1,
+                            SOR = 851
+                        },
+                        new
+                        {
+                            ID = 146,
+                            Assigning = "Blood Bank Reception Button Save",
+                            EmpID = 1,
+                            SOR = 852
+                        },
+                        new
+                        {
+                            ID = 147,
+                            Assigning = "Blood Bank Reception Button Edit",
+                            EmpID = 1,
+                            SOR = 853
+                        },
+                        new
+                        {
+                            ID = 148,
+                            Assigning = "Blood Bank Reception Button Update",
+                            EmpID = 1,
+                            SOR = 854
+                        },
+                        new
+                        {
+                            ID = 149,
+                            Assigning = "Blood Bank Reception Button Print",
+                            EmpID = 1,
+                            SOR = 855
+                        },
+                        new
+                        {
+                            ID = 150,
+                            Assigning = "Report Status Button Print",
+                            EmpID = 1,
+                            SOR = 901
+                        },
+                        new
+                        {
+                            ID = 151,
+                            Assigning = "Report Status Button PrintView",
+                            EmpID = 1,
+                            SOR = 902
+                        },
+                        new
+                        {
+                            ID = 152,
+                            Assigning = "Summary Status TextBox Location",
+                            EmpID = 1,
+                            SOR = 951
+                        },
+                        new
+                        {
+                            ID = 153,
+                            Assigning = "Summary Status TextBox Department",
+                            EmpID = 1,
+                            SOR = 952
+                        },
+                        new
+                        {
+                            ID = 154,
+                            Assigning = "Summary Status TextBox Placement",
+                            EmpID = 1,
+                            SOR = 953
+                        },
+                        new
+                        {
+                            ID = 155,
+                            Assigning = "Summary Status Button Department DataEntry Sheet",
+                            EmpID = 1,
+                            SOR = 954
+                        },
+                        new
+                        {
+                            ID = 156,
+                            Assigning = "Summary Status TextBox Client Name",
+                            EmpID = 1,
+                            SOR = 955
+                        },
+                        new
+                        {
+                            ID = 157,
+                            Assigning = "Summary Status TextBox User Name",
+                            EmpID = 1,
+                            SOR = 956
+                        },
+                        new
+                        {
+                            ID = 158,
+                            Assigning = "Reporting Procedure Button Save",
+                            EmpID = 1,
+                            SOR = 1001
+                        },
+                        new
+                        {
+                            ID = 159,
+                            Assigning = "Reporting Procedure Button Perform",
+                            EmpID = 1,
+                            SOR = 1002
+                        },
+                        new
+                        {
+                            ID = 160,
+                            Assigning = "Reporting Procedure Button Forword",
+                            EmpID = 1,
+                            SOR = 1004
+                        },
+                        new
+                        {
+                            ID = 161,
+                            Assigning = "Reporting Procedure Button Partially Verification",
+                            EmpID = 1,
+                            SOR = 1005
+                        },
+                        new
+                        {
+                            ID = 162,
+                            Assigning = "Reporting Procedure TextBox Department",
+                            EmpID = 1,
+                            SOR = 1006
+                        },
+                        new
+                        {
+                            ID = 163,
+                            Assigning = "Pharmacy Reception Button Save",
+                            EmpID = 1,
+                            SOR = 1051
+                        },
+                        new
+                        {
+                            ID = 164,
+                            Assigning = "Pharmacy Reception Button Edit",
+                            EmpID = 1,
+                            SOR = 1052
+                        },
+                        new
+                        {
+                            ID = 165,
+                            Assigning = "Pharmacy Reception Button Print",
+                            EmpID = 1,
+                            SOR = 1053
+                        },
+                        new
+                        {
+                            ID = 166,
+                            Assigning = "Serological Reporting Button Perform",
+                            EmpID = 1,
+                            SOR = 1101
+                        },
+                        new
+                        {
+                            ID = 167,
+                            Assigning = "Serological Reporting Button Save",
+                            EmpID = 1,
+                            SOR = 1102
+                        },
+                        new
+                        {
+                            ID = 168,
+                            Assigning = "Serological Reporting Button Forword",
+                            EmpID = 1,
+                            SOR = 1103
+                        },
+                        new
+                        {
+                            ID = 169,
+                            Assigning = "Serological Reporting Button Partially Verification",
+                            EmpID = 1,
+                            SOR = 1104
+                        },
+                        new
+                        {
+                            ID = 170,
+                            Assigning = "Serological Reporting TextBox Department",
+                            EmpID = 1,
+                            SOR = 1105
+                        },
+                        new
+                        {
+                            ID = 171,
+                            Assigning = "Serological Reporting TextBox Location",
+                            EmpID = 1,
+                            SOR = 1106
+                        },
+                        new
+                        {
+                            ID = 172,
+                            Assigning = "Molecular Pathology Button Perform",
+                            EmpID = 1,
+                            SOR = 1151
+                        },
+                        new
+                        {
+                            ID = 173,
+                            Assigning = "Molecular Pathology Button Save",
+                            EmpID = 1,
+                            SOR = 1152
+                        },
+                        new
+                        {
+                            ID = 174,
+                            Assigning = "Molecular Pathology Button Forword",
+                            EmpID = 1,
+                            SOR = 1153
+                        },
+                        new
+                        {
+                            ID = 175,
+                            Assigning = "Molecular Pathology Button Partially Verification",
+                            EmpID = 1,
+                            SOR = 1154
+                        },
+                        new
+                        {
+                            ID = 176,
+                            Assigning = "Molecular Pathology TextBox Department",
+                            EmpID = 1,
+                            SOR = 1155
+                        },
+                        new
+                        {
+                            ID = 177,
+                            Assigning = "Molecular Pathology TextBox Location",
+                            EmpID = 1,
+                            SOR = 1156
+                        },
+                        new
+                        {
+                            ID = 178,
+                            Assigning = "Pathology Reporting Button Perform",
+                            EmpID = 1,
+                            SOR = 1201
+                        },
+                        new
+                        {
+                            ID = 179,
+                            Assigning = "Pathology Reporting Button Final Verification",
+                            EmpID = 1,
+                            SOR = 1202
+                        },
+                        new
+                        {
+                            ID = 180,
+                            Assigning = "Pathology Reporting Button Hold",
+                            EmpID = 1,
+                            SOR = 1203
+                        },
+                        new
+                        {
+                            ID = 181,
+                            Assigning = "Pathology Reporting Button Partially Verification",
+                            EmpID = 1,
+                            SOR = 1204
+                        },
+                        new
+                        {
+                            ID = 182,
+                            Assigning = "Pathology Reporting TextBox Department",
+                            EmpID = 1,
+                            SOR = 1205
+                        },
+                        new
+                        {
+                            ID = 183,
+                            Assigning = "Pathology Reporting TextBox Location",
+                            EmpID = 1,
+                            SOR = 1206
+                        },
+                        new
+                        {
+                            ID = 184,
+                            Assigning = "Pathology Reporting Button Result Delete",
+                            EmpID = 1,
+                            SOR = 1207
+                        },
+                        new
+                        {
+                            ID = 185,
+                            Assigning = "Pathology Reporting Button Save",
+                            EmpID = 1,
+                            SOR = 1210
+                        },
+                        new
+                        {
+                            ID = 186,
+                            Assigning = "Pathology Reporting TextBox CNL",
+                            EmpID = 1,
+                            SOR = 1212
+                        },
+                        new
+                        {
+                            ID = 187,
+                            Assigning = "CultureSensitivity Button Save",
+                            EmpID = 1,
+                            SOR = 1251
+                        },
+                        new
+                        {
+                            ID = 188,
+                            Assigning = "CultureSensitivity Button Perform",
+                            EmpID = 1,
+                            SOR = 1252
+                        },
+                        new
+                        {
+                            ID = 189,
+                            Assigning = "CultureSensitivity Button Forword",
+                            EmpID = 1,
+                            SOR = 1253
+                        },
+                        new
+                        {
+                            ID = 190,
+                            Assigning = "CultureSensitivity Button Partially Verification",
+                            EmpID = 1,
+                            SOR = 1254
+                        },
+                        new
+                        {
+                            ID = 191,
+                            Assigning = "CultureSensitivity Button Delete Gram Stain",
+                            EmpID = 1,
+                            SOR = 1255
+                        },
+                        new
+                        {
+                            ID = 192,
+                            Assigning = "CultureSensitivity Button Delete Orgnasium",
+                            EmpID = 1,
+                            SOR = 1256
+                        },
+                        new
+                        {
+                            ID = 193,
+                            Assigning = "CultureSensitivity Button Delete Medician",
+                            EmpID = 1,
+                            SOR = 1257
+                        },
+                        new
+                        {
+                            ID = 194,
+                            Assigning = "Average Report TextBox Location",
+                            EmpID = 1,
+                            SOR = 1258
+                        },
+                        new
+                        {
+                            ID = 195,
+                            Assigning = "Average Report TextBox Department",
+                            EmpID = 1,
+                            SOR = 1259
+                        },
+                        new
+                        {
+                            ID = 196,
+                            Assigning = "Average Report TextBox Sub Department",
+                            EmpID = 1,
+                            SOR = 1260
+                        },
+                        new
+                        {
+                            ID = 197,
+                            Assigning = "RadiologyReporting Button Final Verification",
+                            EmpID = 1,
+                            SOR = 1301
+                        },
+                        new
+                        {
+                            ID = 198,
+                            Assigning = "RadiologyReporting Button Hold",
+                            EmpID = 1,
+                            SOR = 1302
+                        },
+                        new
+                        {
+                            ID = 199,
+                            Assigning = "RadiologyReporting TextBox Department",
+                            EmpID = 1,
+                            SOR = 1305
+                        },
+                        new
+                        {
+                            ID = 200,
+                            Assigning = "RadiologyReporting TextBox Location",
+                            EmpID = 1,
+                            SOR = 1306
+                        },
+                        new
+                        {
+                            ID = 201,
+                            Assigning = "RadiologyReporting Button Result Delete",
+                            EmpID = 1,
+                            SOR = 1307
+                        },
+                        new
+                        {
+                            ID = 202,
+                            Assigning = "Ultrasound All Button Save",
+                            EmpID = 1,
+                            SOR = 1351
+                        },
+                        new
+                        {
+                            ID = 203,
+                            Assigning = "Ultrasound FWB Button Save",
+                            EmpID = 1,
+                            SOR = 1401
+                        },
+                        new
+                        {
+                            ID = 204,
+                            Assigning = "Xray Button Save",
+                            EmpID = 1,
+                            SOR = 1451
+                        },
+                        new
+                        {
+                            ID = 205,
+                            Assigning = "Chart of Account MenuStrip Vouchers",
+                            EmpID = 1,
+                            SOR = 1501
+                        },
+                        new
+                        {
+                            ID = 206,
+                            Assigning = "Chart of Account MenuStrip Add Head of Account",
+                            EmpID = 1,
+                            SOR = 1502
+                        },
+                        new
+                        {
+                            ID = 207,
+                            Assigning = "Chart of Account MenuStrip Report Summary",
+                            EmpID = 1,
+                            SOR = 1503
+                        },
+                        new
+                        {
+                            ID = 208,
+                            Assigning = "Inventory MenuStrip Delivery",
+                            EmpID = 1,
+                            SOR = 1550
+                        },
+                        new
+                        {
+                            ID = 209,
+                            Assigning = "Inventory MenuStrip Request",
+                            EmpID = 1,
+                            SOR = 1551
+                        },
+                        new
+                        {
+                            ID = 210,
+                            Assigning = "Inventory MenuStrip Status Book",
+                            EmpID = 1,
+                            SOR = 1552
+                        },
+                        new
+                        {
+                            ID = 211,
+                            Assigning = "Inventory MenuStrip General Stock",
+                            EmpID = 1,
+                            SOR = 1553
+                        },
+                        new
+                        {
+                            ID = 212,
+                            Assigning = "Inventory MenuStrip Medical Stock",
+                            EmpID = 1,
+                            SOR = 1554
+                        },
+                        new
+                        {
+                            ID = 213,
+                            Assigning = "Inventory MenuStrip Manual Barcode",
+                            EmpID = 1,
+                            SOR = 1555
+                        },
+                        new
+                        {
+                            ID = 214,
+                            Assigning = "Inventory MenuStrip Accountibility",
+                            EmpID = 1,
+                            SOR = 1556
+                        },
+                        new
+                        {
+                            ID = 215,
+                            Assigning = "Inventory MenuStrip Add Product",
+                            EmpID = 1,
+                            SOR = 1557
+                        },
+                        new
+                        {
+                            ID = 216,
+                            Assigning = "Inventory MenuStrip Opening Balance",
+                            EmpID = 1,
+                            SOR = 1558
+                        },
+                        new
+                        {
+                            ID = 217,
+                            Assigning = "Inventory MenuStrip Activity Report",
+                            EmpID = 1,
+                            SOR = 1559
+                        },
+                        new
+                        {
+                            ID = 218,
+                            Assigning = "Inventory MenuStrip Stock Report",
+                            EmpID = 1,
+                            SOR = 1560
+                        },
+                        new
+                        {
+                            ID = 219,
+                            Assigning = "Setting MenuStrip System Configration",
+                            EmpID = 1,
+                            SOR = 1600
+                        },
+                        new
+                        {
+                            ID = 220,
+                            Assigning = "OPD MenuStrip OPD Reporting",
+                            EmpID = 1,
+                            SOR = 1650
+                        },
+                        new
+                        {
+                            ID = 221,
+                            Assigning = "Expenses Button Edit",
+                            EmpID = 1,
+                            SOR = 1651
+                        },
+                        new
+                        {
+                            ID = 222,
+                            Assigning = "Expenses TextBox Date",
+                            EmpID = 1,
+                            SOR = 1652
+                        },
+                        new
+                        {
+                            ID = 223,
+                            Assigning = "Expenses Button Delete",
+                            EmpID = 1,
+                            SOR = 1653
+                        },
+                        new
+                        {
+                            ID = 224,
+                            Assigning = "HistoPathology Button Perform",
+                            EmpID = 1,
+                            SOR = 1700
+                        },
+                        new
+                        {
+                            ID = 225,
+                            Assigning = "Section Acknowlegde Button Pending",
+                            EmpID = 1,
+                            SOR = 1750
+                        },
+                        new
+                        {
+                            ID = 226,
+                            Assigning = "Section Acknowlegde Button Section Ack",
+                            EmpID = 1,
+                            SOR = 1751
+                        },
+                        new
+                        {
+                            ID = 227,
+                            Assigning = "Phlebotomy Acknowledge Button Pending",
+                            EmpID = 1,
+                            SOR = 1801
+                        },
+                        new
+                        {
+                            ID = 228,
+                            Assigning = "Batch Received Button Pending",
+                            EmpID = 1,
+                            SOR = 1850
+                        },
+                        new
+                        {
+                            ID = 229,
+                            Assigning = "Batch Received Button Batch Received",
+                            EmpID = 1,
+                            SOR = 1851
+                        },
+                        new
+                        {
+                            ID = 230,
+                            Assigning = "Batch Generate Button Pending",
+                            EmpID = 1,
+                            SOR = 1901
+                        },
+                        new
+                        {
+                            ID = 231,
+                            Assigning = "Batch Generate Button Batch Generate",
+                            EmpID = 1,
+                            SOR = 1902
+                        },
+                        new
+                        {
+                            ID = 232,
+                            Assigning = "Check Out TextBox UserID",
+                            EmpID = 1,
+                            SOR = 1952
+                        },
+                        new
+                        {
+                            ID = 233,
+                            Assigning = "Check Out TextBox Location",
+                            EmpID = 1,
+                            SOR = 1953
+                        },
+                        new
+                        {
+                            ID = 234,
+                            Assigning = "SMS MenuStrip Setting",
+                            EmpID = 1,
+                            SOR = 2001
+                        },
+                        new
+                        {
+                            ID = 235,
+                            Assigning = "SMS MenuStrip SMS Sender",
+                            EmpID = 1,
+                            SOR = 2002
+                        },
+                        new
+                        {
+                            ID = 236,
+                            Assigning = "SMS MenuStrip Empolyee SMS",
+                            EmpID = 1,
+                            SOR = 2003
+                        },
+                        new
+                        {
+                            ID = 237,
+                            Assigning = "Purchase MenuStrip Request",
+                            EmpID = 1,
+                            SOR = 2400
+                        },
+                        new
+                        {
+                            ID = 238,
+                            Assigning = "Purchase MenuStrip Order",
+                            EmpID = 1,
+                            SOR = 2401
+                        },
+                        new
+                        {
+                            ID = 239,
+                            Assigning = "Purchase MenuStrip Vendor Registration",
+                            EmpID = 1,
+                            SOR = 2402
+                        },
+                        new
+                        {
+                            ID = 240,
+                            Assigning = "Vendor Registration MenuStrip Add Vendor",
+                            EmpID = 1,
+                            SOR = 2403
+                        },
+                        new
+                        {
+                            ID = 241,
+                            Assigning = "Loyalti MenuStrip Company Setup",
+                            EmpID = 1,
+                            SOR = 2451
+                        },
+                        new
+                        {
+                            ID = 242,
+                            Assigning = "Loyalti MenuStrip Card Setup",
+                            EmpID = 1,
+                            SOR = 2452
+                        },
+                        new
+                        {
+                            ID = 243,
+                            Assigning = "Marketing TextBox User or Location",
+                            EmpID = 1,
+                            SOR = 2501
+                        });
+                });
+
+            modelBuilder.Entity("AdvLab_WebApi.Models.AddClient", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+
+                    b.Property<string>("Address")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("BDO")
+                        .HasColumnType("int");
+
+                    b.Property<string>("BusinessType")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CCont")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CEmail")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("CID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("CLocation")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ClientActive")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ClientInstraction")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ComName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DescType")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double>("Dsc_Cdopler")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Dsc_Ctscan")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Dsc_Ecg")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Dsc_Echo")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Dsc_Mri")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Dsc_NoDisc")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Dsc_Routine")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Dsc_Special")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Dsc_Ultra")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Dsc_Xray")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Inc_Cdopler")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Inc_Ctscan")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Inc_Ecg")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Inc_Echo")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Inc_Mri")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Inc_NoDisc")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Inc_Routine")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Inc_Special")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Inc_Ultra")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Inc_Xray")
+                        .HasColumnType("float");
+
+                    b.Property<string>("Location")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PAWC")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PerA")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PriceChangabletrue")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Pwd")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("RegDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("UId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("AddClients");
+
+                    b.HasData(
+                        new
+                        {
+                            ID = 1,
+                            Address = "",
+                            BDO = 1,
+                            BusinessType = "Walk-In",
+                            CCont = "",
+                            CEmail = "",
+                            CID = 1,
+                            CLocation = "Main",
+                            CName = "SELF",
+                            ClientActive = "Active",
+                            ClientInstraction = "",
+                            ComName = "SELF",
+                            DescType = "Cash",
+                            Dsc_Cdopler = 0.0,
+                            Dsc_Ctscan = 0.0,
+                            Dsc_Ecg = 0.0,
+                            Dsc_Echo = 0.0,
+                            Dsc_Mri = 0.0,
+                            Dsc_NoDisc = 0.0,
+                            Dsc_Routine = 0.0,
+                            Dsc_Special = 0.0,
+                            Dsc_Ultra = 0.0,
+                            Dsc_Xray = 0.0,
+                            Inc_Cdopler = 0.0,
+                            Inc_Ctscan = 0.0,
+                            Inc_Ecg = 0.0,
+                            Inc_Echo = 0.0,
+                            Inc_Mri = 0.0,
+                            Inc_NoDisc = 0.0,
+                            Inc_Routine = 0.0,
+                            Inc_Special = 0.0,
+                            Inc_Ultra = 0.0,
+                            Inc_Xray = 0.0,
+                            Location = "Main",
+                            PAWC = "No",
+                            PerA = "Yes",
+                            PriceChangabletrue = "No",
+                            Pwd = "A123456",
+                            RegDate = new DateTime(2018, 4, 15, 3, 21, 16, 0, DateTimeKind.Unspecified),
+                            UId = 1
+                        });
                 });
 
             modelBuilder.Entity("AdvLab_WebApi.Models.AddConnLab", b =>
@@ -88,7 +1981,7 @@ namespace AdvLab_WebApi.Migrations
                         new
                         {
                             ID = 5,
-                            LocActive = "No",
+                            LocActive = "Yes",
                             LocCate = "MAIN-LAB",
                             LocID = 1,
                             Location = "MAIN-LAB",
@@ -1228,7 +3121,7 @@ namespace AdvLab_WebApi.Migrations
                             ID = 1,
                             CompMac = "FB: Address Contact",
                             Idloc = "NKM",
-                            LocActive = "No",
+                            LocActive = "Yes",
                             LocCate = "Main",
                             LocID = 10150121,
                             LocSno = 0,
@@ -1852,7 +3745,7 @@ namespace AdvLab_WebApi.Migrations
                             CNL = "MAIN-LAB",
                             CrystalReport = "\\192.168.73.3\\ALAB Reports\\",
                             DefaultClient = "SELF",
-                            Loc = "NKM",
+                            Loc = "Main",
                             Password = "M89.SolutioN",
                             UserName = "sa",
                             db = "AdvancedLab",

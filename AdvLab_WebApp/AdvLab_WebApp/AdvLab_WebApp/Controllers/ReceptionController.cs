@@ -1,7 +1,9 @@
 ﻿
 
 using AdvLab_WebApp.Models;
+using AdvLab_WebApp.Models.Users;
 using Microsoft.AspNetCore;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -45,7 +47,6 @@ namespace AdvLab_WebApp.Controllers
 
         }
         [HttpPost]
-
         public async Task<IActionResult> Create(CreateViewModel model)
         {
             if (ModelState.IsValid)
@@ -101,7 +102,7 @@ namespace AdvLab_WebApp.Controllers
                                 .Select(l => new SelectListItem { Value = l.Initial, Text = l.Initial })
                                 .ToList();
 
-                            selectList.Insert(0, new SelectListItem { Value = "Please Select", Text = "Please Select" });
+                            selectList.Insert(0, new SelectListItem { Value = "", Text = "" });
 
                             return selectList;
                         }
@@ -141,10 +142,16 @@ namespace AdvLab_WebApp.Controllers
                             var selectList = Relations
                                 .Select(l => new SelectListItem { Value = l.Relation, Text = l.Relation })
                                 .ToList();
+                            var distinctRelations = selectList
+                                .Select(item => new SelectListItem { Value = item.Value, Text = item.Text })
+                                .Distinct(new SelectListItemComparer())
+                                .ToList();
 
-                            selectList.Insert(0, new SelectListItem { Value = "Please Select", Text = "Please Select" });
 
-                            return selectList;
+
+                            distinctRelations.Insert(0, new SelectListItem { Value = "", Text = "" });
+
+                            return distinctRelations;
                         }
                     }
                     else
@@ -182,10 +189,14 @@ namespace AdvLab_WebApp.Controllers
                             var selectList = AgeTypes
                                 .Select(l => new SelectListItem { Value = l.Years, Text = l.Years })
                                 .ToList();
+                            var distinctAgeTypes = selectList
+                                .Select(item => new SelectListItem { Value = item.Value, Text = item.Text })
+                                .Distinct(new SelectListItemComparer())
+                                .ToList();
 
-                            selectList.Insert(0, new SelectListItem { Value = "Please Select", Text = "Please Select" });
+                            distinctAgeTypes.Insert(0, new SelectListItem { Value = "", Text = "" });
 
-                            return selectList;
+                            return distinctAgeTypes;
                         }
                     }
                     else
@@ -223,10 +234,14 @@ namespace AdvLab_WebApp.Controllers
                             var selectList = Genders
                                 .Select(l => new SelectListItem { Value = l.Gender, Text = l.Gender })
                                 .ToList();
+                            var distinctGenders = selectList
+                                .Select(item => new SelectListItem { Value = item.Value, Text = item.Text })
+                                .Distinct(new SelectListItemComparer())
+                                .ToList();
 
-                            selectList.Insert(0, new SelectListItem { Value = "Please Select", Text = "Please Select" });
+                            distinctGenders.Insert(0, new SelectListItem { Value = "", Text = "" });
 
-                            return selectList;
+                            return distinctGenders;
                         }
                     }
                     else
@@ -284,6 +299,41 @@ namespace AdvLab_WebApp.Controllers
                     Gender = string.Empty });
             }
         }
-    
+
+        [HttpGet]
+        public async Task<IActionResult> ClientsearchingEvent(string searchTerm)
+        {
+
+            var apiUrl = "https://localhost:7121/API/Receptions/GetClient?prefix=" + searchTerm + "&ClientV=" + HttpContext.Session.GetString("UserClientV");
+
+            using (HttpClient client = new HttpClient())
+            {
+                try
+                {
+                    string token = HttpContext.Session.GetString("AccessToken");
+                    client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+                    HttpResponseMessage response = await client.GetAsync(apiUrl);
+
+                    if (response.IsSuccessStatusCode)
+                    {
+                        var Client = await response.Content.ReadFromJsonAsync<List<AddClient>>();
+                        if (Client != null && Client.Any())
+                        {
+                            var ClientResults = Client.Select(ac => new { ClientID = ac.CID, ClientName = ac.CName, Location = ac.Location, PerA = ac.PerA });
+                            return Json(ClientResults);
+                        }
+                    }
+                    else
+                    {
+                    }
+                }
+                catch (Exception ex)
+                {
+                }
+
+                return Json(new List<object>());
+            }
+        }
+
     }
 }

@@ -827,6 +827,151 @@ namespace AdvLab_WebApp.Migrations
                     b.ToTable("Users");
                 });
 
+            modelBuilder.Entity("AdvLab_WebApp.Models.Users.AddClient", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+
+                    b.Property<string>("Address")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("BDO")
+                        .HasColumnType("int");
+
+                    b.Property<string>("BusinessType")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CCont")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CEmail")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("CID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("CLocation")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ClientActive")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ClientInstraction")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ComName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DescType")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double>("Dsc_Cdopler")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Dsc_Ctscan")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Dsc_Ecg")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Dsc_Echo")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Dsc_Mri")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Dsc_NoDisc")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Dsc_Routine")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Dsc_Special")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Dsc_Ultra")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Dsc_Xray")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Inc_Cdopler")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Inc_Ctscan")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Inc_Ecg")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Inc_Echo")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Inc_Mri")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Inc_NoDisc")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Inc_Routine")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Inc_Special")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Inc_Ultra")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Inc_Xray")
+                        .HasColumnType("float");
+
+                    b.Property<string>("Location")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PAWC")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PerA")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PriceChangabletrue")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Pwd")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("RegDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("UId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("AddClients");
+                });
+
             modelBuilder.Entity("AdvLab_WebApp.Models.DescCashier", b =>
                 {
                     b.HasOne("AdvLab_WebApp.Models.PatReg", "PatReg")

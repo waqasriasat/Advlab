@@ -81,8 +81,6 @@ namespace AdvLab_WebApi.Controllers
             {
                 var addRelation = await _appDBContext.PatReg_Shortkeys
                      .Where(s => s.Relation != null && s.Relation.Trim() != "")
-                     .Select(s => s.Relation)
-                     .Distinct()
                      .ToListAsync();
                 return Ok(addRelation);
             }
@@ -99,8 +97,6 @@ namespace AdvLab_WebApi.Controllers
             {
                 var addAgeType = await _appDBContext.PatReg_Shortkeys
                      .Where(s => s.Years != null && s.Years.Trim() != "")
-                     .Select(s => s.Years)
-                     .Distinct()
                      .ToListAsync();
                 return Ok(addAgeType);
             }
@@ -117,10 +113,28 @@ namespace AdvLab_WebApi.Controllers
             {
                 var addGender = await _appDBContext.PatReg_Shortkeys
                      .Where(s => s.Gender != null && s.Gender.Trim() != "")
-                     .Select(s => s.Gender)
-                     .Distinct()
                      .ToListAsync();
                 return Ok(addGender); ;
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "Internal Server Error");
+            }
+        }
+        [HttpGet("GetClient")]
+        [Authorize]
+        public async Task<IActionResult> GetClient(string prefix, string ClientV)
+        {
+            try
+            {
+                var Clients = await _appDBContext.AddClients
+                    .Where(ac =>
+                        EF.Functions.Like(ac.CName, $"%{prefix}%") ||
+                        EF.Functions.Like(ac.Location, $"{ClientV}"))
+                    .Select(ac => new { ac.CID, ac.CName, ac.Location, ac.PerA })
+                    .ToListAsync();
+
+                return Ok(Clients);
             }
             catch (Exception ex)
             {

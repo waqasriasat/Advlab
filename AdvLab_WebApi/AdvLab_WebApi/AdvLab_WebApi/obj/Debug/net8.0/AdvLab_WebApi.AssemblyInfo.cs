@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AdvLab_WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2af8393659ccebe72d9217e59c3eb5e4f8435efe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a226884cf3e800ffda732c70ff116648d40a5dbc")]
 [assembly: System.Reflection.AssemblyProductAttribute("AdvLab_WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AdvLab_WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
