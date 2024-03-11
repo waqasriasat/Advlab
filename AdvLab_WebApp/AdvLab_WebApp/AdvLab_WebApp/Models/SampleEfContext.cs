@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using AdvLab_WebApp.Models.Users;
 using Microsoft.EntityFrameworkCore;
 
 namespace AdvLab_WebApp.Models;
@@ -33,6 +34,7 @@ public partial class SampleEfContext : DbContext
     public virtual DbSet<DuesRecQ> DuesRecQs { get; set; }
     public virtual DbSet<PatReg> PatRegs { get; set; }
     public virtual DbSet<PatReg_Shortkey> PatReg_Shortkeys { get; set; }
+    public virtual DbSet<AddClient> AddClients { get; set; }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
 
