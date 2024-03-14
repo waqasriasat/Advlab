@@ -183,10 +183,11 @@
                             {
                                 <tr>
                                     <td>
-                                        <input asp-for="@Model.DescCashier.DescLabs[i].DescID" class="form-control" />
+                                        <input asp-for="@Model.DescCashier.DescLabs[i].DescID" id="Txt_DescID" class="form-control" />
+                                        <input asp-for="@Model.DescCashier.DescLabs[i].DescID" id="Txt_DescName" class="form-control" type="text" />
                                     </td>
                                     <td>
-                                        <input asp-for="@Model.DescCashier.DescLabs[i].Charges" class="form-control" />
+                                        <input asp-for="@Model.DescCashier.DescLabs[i].Charges" id="Txt_Price" class="form-control" />
                                     </td>
                                     <td>
                                         <button id="btndummy-@i" type="button" class="btn btn-sm invisible">Dummy</button>
@@ -310,10 +311,71 @@
         function DeleteItem(btn) {
             $(btn).closest('tr').remove();
         }
+        // function AddItem(btn) {
+        //     var table = document.getElementById('DescLabTable');
+        //     var rows = table.getElementsByTagName('tr');
+        //     var lastrowIdx = document.getElementById('hdnLastIndex').value;
+        //     var nextrowIdx = parseInt(lastrowIdx) + 1;
+
+        //     var newRow = rows[1].cloneNode(true); // Clone the template row
+        //     newRow.innerHTML = newRow.innerHTML.replace(/\[(\d+)\]/g, '[' + nextrowIdx + ']'); // Update index in names
+
+        //     // Update IDs and names of input fields
+        //     newRow.querySelectorAll("[id^='Txt_DescID']").forEach(function (element) {
+        //         element.id = "Txt_DescID_" + nextrowIdx;
+        //         element.name = "DescCashier.DescLabs[" + nextrowIdx + "].DescID";
+        //     });
+
+        //     newRow.querySelectorAll("[id^='Txt_DescName']").forEach(function (element) {
+        //         element.id = "Txt_DescName_" + nextrowIdx;
+        //         element.name = "DescCashier.DescLabs[" + nextrowIdx + "].DescName";
+        //     });
+
+        //     newRow.querySelectorAll("[id^='Txt_Price']").forEach(function (element) {
+        //         element.id = "Txt_Price_" + nextrowIdx;
+        //         element.name = "DescCashier.DescLabs[" + nextrowIdx + "].Charges";
+        //     });
+
+        //     // Update IDs of buttons
+        //     newRow.querySelector("[id^='btnadd']").id = "btnadd-" + nextrowIdx;
+        //     newRow.querySelector("[id^='btnremove']").id = "btnremove-" + nextrowIdx;
+
+        //     table.appendChild(newRow);
+
+        //     document.getElementById('hdnLastIndex').value = nextrowIdx;
+
+        //         var btnAddID = btn.id;
+        //         var btnDeleteid = btnAddID.replaceAll('btnadd', 'btnremove');
+        //         var delbtn = document.getElementById(btnDeleteid);
+        //         delbtn.classList.add("visible");
+        //         delbtn.classList.remove("invisible");
+        //         var addbtn = document.getElementById(btnAddID);
+        //         addbtn.classList.remove("visible");
+        //         addbtn.classList.add("invisible");
+        // }
 
         function AddItem(btn) {
             var table = document.getElementById('DescLabTable');
             var rows = table.getElementsByTagName('tr');
+
+            var newRow = rows[1].cloneNode(true); // Clone the template row
+                newRow.innerHTML = newRow.innerHTML.replace(/\[(\d+)\]/g, '[' + nextrowIdx + ']'); // Update index in names
+
+                // Update IDs and names of input fields
+                newRow.querySelectorAll("[id^='Txt_DescID']").forEach(function (element) {
+                    element.id = "Txt_DescID_" + nextrowIdx;
+                    element.name = "DescCashier.DescLabs[" + nextrowIdx + "].DescID";
+                });
+
+                newRow.querySelectorAll("[id^='Txt_DescName']").forEach(function (element) {
+                    element.id = "Txt_DescName_" + nextrowIdx;
+                    element.name = "DescCashier.DescLabs[" + nextrowIdx + "].DescName";
+                });
+
+                newRow.querySelectorAll("[id^='Txt_Price']").forEach(function (element) {
+                    element.id = "Txt_Price_" + nextrowIdx;
+                    element.name = "DescCashier.DescLabs[" + nextrowIdx + "].Charges";
+                });
 
             var rowOuterHtml = rows[rows.length - 1].outerHTML;
 
@@ -336,15 +398,16 @@
             var addbtn = document.getElementById(btnAddID);
             addbtn.classList.remove("visible");
             addbtn.classList.add("invisible");
-            rebindvalidation();
+            // rebindvalidation();
         }
-        function rebindvalidation() {
-            var $form = $("ApplicantForm");
-            $form.unbind();
-            $form.data("validator", null)
-            $.validator.unobtrusive.parse($form);
-            $form.validator($form.data("unobtrusiveValidation").options);
-        }
+
+        // function rebindvalidation() {
+        //     var $form = $("ApplicantForm");
+        //     $form.unbind();
+        //     $form.data("validator", null)
+        //     $.validator.unobtrusive.parse($form);
+        //     $form.validator($form.data("unobtrusiveValidation").options);
+        // }
 
     </script>
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
@@ -355,7 +418,6 @@
            
             $('#Txt_ClientName').autocomplete({
                 source: function (request, response) {
-                    debugger;
                     $.ajax({
                         url: '/Reception/ClientsearchingEvent',
                         method: 'GET',
@@ -382,6 +444,73 @@
                     console.log(ui.item);
                     $('#Txt_ClientID').val(ui.item.clientID);
                     $('#Txt_PerA').val(ui.item.perA);
+                }
+            });
+        });
+    </script>
+    <script>
+        $(function () {
+            $(document).on('focus', '[id^="Txt_DescName_"]', function () {
+                $(this).autocomplete({
+                    source: function (request, response) {
+                        $.ajax({
+                            url: '/Reception/ClientsearchingEvent',
+                            method: 'GET',
+                            data: { searchTerm: request.term },
+                            success: function (data) {
+                                response(data.map(function (item) {
+                                    return {
+                                        label: item.clientName,
+                                        value: item.clientName,
+                                        clientID: item.clientID,
+                                        location: item.location,
+                                        perA: item.perA
+                                    };
+                                }));
+                            },
+                            error: function (error) {
+                                console.error(error);
+                            }
+                        });
+                    },
+                    minLength: 3,
+                    select: function (event, ui) {
+                        console.log(ui.item);
+                        $(this).siblings('[id^="Txt_DescID_"]').val(ui.item.clientID);
+                        $(this).siblings('[id^="Txt_Price_"]').val(ui.item.clientID);
+                    }
+                });
+            });
+        });
+        $(function () {
+
+            $('#Txt_DescName').autocomplete({
+                source: function (request, response) {
+                    $.ajax({
+                        url: '/Reception/ClientsearchingEvent',
+                        method: 'GET',
+                        data: { searchTerm: request.term },
+                        success: function (data) {
+                            response(data.map(function (item) {
+                                return {
+                                    label: item.clientName,
+                                    value: item.clientName,
+                                    clientID: item.clientID,
+                                    location: item.location,
+                                    perA: item.perA
+                                };
+                            }));
+                        },
+                        error: function (error) {
+                            console.error(error);
+                        }
+                    });
+                },
+                minLength: 3,
+                select: function (event, ui) {
+                    console.log(ui.item);
+                    $('#Txt_DescID').val(ui.item.clientID);
+                    $('#Txt_Price').val(ui.item.clientID);
                 }
             });
         });
